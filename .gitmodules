@@ -1,6 +1,6 @@
 [submodule "diffusers"]
 	path = diffusers
 	url = git@github.com:huggingface/diffusers.git
-[submodule "vision-language-models-are-bows"]
-	path = vision-language-models-are-bows
+[submodule "aro"]
+	path = aro
 	url = git@github.com:mertyg/vision-language-models-are-bows.git

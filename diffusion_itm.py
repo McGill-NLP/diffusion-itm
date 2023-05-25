@@ -19,39 +19,31 @@ from accelerate import Accelerator
 
 import cProfile
 
-class Scorer:
-    def __init__(self, args, clip_model=None, preprocess=None):
 
-        # vae = AutoencoderKL.from_pretrained('./stable-diffusion-v1-5', subfolder='vae', use_auth_token='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')
-        # vae.to(device='cuda', dtype=torch.bfloat16)
-        # self.vae_model = StableDiffusionImg2LatentPipeline(vae).to('cuda')
-        self.cache_dir = args.cache_dir if args.cache else None
+def score_batch(i, args, batch, model):
+    """
+    Takes a batch of images and captions and returns a score for each image-caption pair.
+    """
 
+    imgs, texts = batch[0], batch[1]
+    imgs, imgs_resize = imgs[0], imgs[1]
+    imgs_resize = [img.cuda() for img in imgs_resize]
 
-    def score_batch(self, i, args, batch, model):
-        """
-        Takes a batch of images and captions and returns a score for each image-caption pair.
-        """
+    scores = []
+    for txt_idx, text in enumerate(texts):
+        for img_idx, resized_img in enumerate(imgs_resize):
+            if len(resized_img.shape) == 3:
+                resized_img = resized_img.unsqueeze(0)
+            
+            print(f'Batch {i}, Text {txt_idx}, Image {img_idx}')
+            dists = model(prompt=list(text), image=resized_img, guidance_scale=args.guidance_scale, sampling_steps=args.sampling_steps, unconditional=args.img_retrieval)
+            dists = dists.to(torch.float32)
+            dists = dists.mean(dim=1)
+            dists = -dists
+            scores.append(dists)
 
-        imgs, texts = batch[0], batch[1]
-        imgs, imgs_resize = imgs[0], imgs[1]
-        imgs_resize = [img.cuda() for img in imgs_resize]
-
-        scores = []
-        for txt_idx, text in enumerate(texts):
-            for img_idx, resized_img in enumerate(imgs_resize):
-                if len(resized_img.shape) == 3:
-                    resized_img = resized_img.unsqueeze(0)
-                
-                print(f'Batch {i}, Text {txt_idx}, Image {img_idx}')
-                dists = model(prompt=list(text), image=resized_img, scoring=True, guidance_scale=args.guidance_scale, sampling_steps=args.sampling_steps, unconditional=args.img_retrieval, gray_baseline=args.gray_baseline)
-                dists = dists.to(torch.float32)
-                dists = dists.mean(dim=1)
-                dists = -dists
-                scores.append(dists)
-
-        scores = torch.stack(scores).permute(1, 0) if args.batchsize > 1 else torch.stack(scores).unsqueeze(0)
-        return scores
+    scores = torch.stack(scores).permute(1, 0) if args.batchsize > 1 else torch.stack(scores).unsqueeze(0)
+    return scores
         
 
 def main(args):
@@ -68,7 +60,6 @@ def main(args):
     if args.lora_dir != '':
         model.unet.load_attn_procs(args.lora_dir)
 
-    scorer = Scorer(args)
     dataset = get_dataset(args.task, f'datasets/{args.task}', transform=None, targets=args.targets)
 
     dataloader = DataLoader(dataset, batch_size=args.batchsize, shuffle=False, num_workers=0)
@@ -90,7 +81,7 @@ def main(args):
             continue
         if args.subset and i % SKIP_NUMB != 0:
             continue
-        scores = scorer.score_batch(i, args, batch, model)
+        scores = score_batch(i, args, batch, model)
         scores = scores.contiguous()
         accelerator.wait_for_everyone()
         # print(scores)
@@ -107,7 +98,7 @@ def main(args):
                 print(f'Image score: {img_score}')
                 print(f'Group score: {group_score}')
                 print(len(metrics))
-                with open(f'./paper_results/{args.run_id}_results.txt', 'w') as f:
+                with open(f'./{args.run_id}_results.txt', 'w') as f:
                     f.write(f'Text score: {text_score}\n')
                     f.write(f'Image score: {img_score}\n')
                     f.write(f'Group score: {group_score}\n')
@@ -121,7 +112,7 @@ def main(args):
                 print(f'R@1: {r1}')
                 print(f'R@5: {r5}')
                 print(f'Max more than once: {max_more_than_onces}')
-                with open(f'./paper_results/{args.run_id}_results.txt', 'w') as f:
+                with open(f'./{args.run_id}_results.txt', 'w') as f:
                     f.write(f'R@1: {r1}\n')
                     f.write(f'R@5: {r5}\n')
                     f.write(f'Max more than once: {max_more_than_onces}\n')
@@ -133,7 +124,7 @@ def main(args):
                 max_more_than_onces += max_more_than_once
                 print(f'Accuracy: {acc}')
                 print(f'Max more than once: {max_more_than_onces}')
-                with open(f'./paper_results/{args.run_id}_results.txt', 'w') as f:
+                with open(f'./{args.run_id}_results.txt', 'w') as f:
                     f.write(f'Accuracy: {acc}\n')
                     f.write(f'Max more than once: {max_more_than_onces}\n')
                     f.write(f"Sample size {len(metrics)}\n")
@@ -146,7 +137,7 @@ def main(args):
                     clevr_dict[subtask].append(acc_list[i])
                 for subtask in clevr_dict:
                     print(f'{subtask} accuracy: {sum(clevr_dict[subtask]) / len(clevr_dict[subtask])}')
-                    with open(f'./paper_results/{args.run_id}_results.txt', 'a') as f:
+                    with open(f'./{args.run_id}_results.txt', 'a') as f:
                         f.write(f'{subtask} accuracy: {sum(clevr_dict[subtask]) / len(clevr_dict[subtask])}\n')
             elif args.task == 'mmbias':                
                 phis = evaluate_scores(args,scores,batch)
@@ -156,7 +147,7 @@ def main(args):
                     bias_scores[class_idx].extend(phi_list)
                 if (i+1)%5==0:
                     print(bias_scores)
-                    save_bias_scores(f'./paper_results/{args.run_id}_interim_results{i}.json',bias_scores)
+                    save_bias_scores(f'./{args.run_id}_interim_results{i}.json',bias_scores)
             elif args.task == 'genderbias':                
                 phis = evaluate_scores(args,scores,batch)
                 for class_id, phi_list in phis.items():
@@ -165,7 +156,7 @@ def main(args):
                     gender_bias_scores[class_id].extend(phi_list)
                 if (i+1)%5==0:
                     print(gender_bias_scores)
-                    save_bias_scores(f'./paper_results/{args.run_id}_interim_results{i}.json',gender_bias_scores)
+                    save_bias_scores(f'./{args.run_id}_interim_results{i}.json',gender_bias_scores)
             else:
                 acc, max_more_than_once = evaluate_scores(args, scores, batch)
                 metrics += acc
@@ -190,13 +181,13 @@ def main(args):
                             bias_scores[class_idx] = existing_bias_scores[str(class_idx)]
             f.close()
         # now write new contents
-        save_bias_scores(f'./paper_results/{args.run_id}_results.json', bias_scores)
-        save_bias_results(f'./paper_results/{args.run_id}_results.txt', bias_scores, 'mmbias')
+        save_bias_scores(f'./{args.run_id}_results.json', bias_scores)
+        save_bias_results(f'./{args.run_id}_results.txt', bias_scores, 'mmbias')
     elif args.task == 'genderbias':
         print("\n\n-------------------------We're done!-------------------------\nGender Bias Scores:")
         print(gender_bias_scores)
-        if os.path.exists(f'./paper_results/{args.run_id}_results.json'):
-            with open(f'./paper_results/{args.run_id}_results.json', 'r') as f:
+        if os.path.exists(f'./{args.run_id}_results.json'):
+            with open(f'./{args.run_id}_results.json', 'r') as f:
                 existing_bias_scores = json.load(f)
                 # add previously calculated ones
                 for class_idx, scores in gender_bias_scores.items():
@@ -205,13 +196,12 @@ def main(args):
                             gender_bias_scores[class_idx] = existing_bias_scores[str(class_idx)]
             f.close()
         # now write new contents
-        save_bias_scores(f'./paper_results/{args.run_id}_results.json', gender_bias_scores)
-        save_bias_results(f'./paper_results/{args.run_id}_results.txt', gender_bias_scores, 'genderbias')
+        save_bias_scores(f'./{args.run_id}_results.json', gender_bias_scores)
+        save_bias_results(f'./{args.run_id}_results.txt', gender_bias_scores, 'genderbias')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--task', type=str)
-    # parser.add_argument('--similarity', type=str, default='clip')
     parser.add_argument('--seed', type=int, default=0)
     parser.add_argument('--skip', type=int, default=0, help='number of batches to skip\nuse: skip if i < args.skip\ni.e. put 49 if you mean 50')
     parser.add_argument('--cache', action='store_true')
@@ -255,7 +245,7 @@ if __name__ == '__main__':
         elif "inferencelike" in args.lora_dir:
             lora_type = "inferencelike"
 
-    args.run_id = f'XX{args.task}_diffusion_classifier_{args.version}_seed{args.seed}_steps{args.sampling_steps}_subset{args.subset}{args.targets}_img_retrieval{args.img_retrieval}_{"lora_" + lora_type if args.lora_dir else ""}_gray{args.gray_baseline}'
+    args.run_id = f'{args.task}_diffusion_itm_{args.version}_seed{args.seed}_steps{args.sampling_steps}_subset{args.subset}{args.targets}_img_retrieval{args.img_retrieval}_{"lora_" + lora_type if args.lora_dir else ""}_gray{args.gray_baseline}'
     if args.cache:
         args.cache_dir = f'./cache/{args.run_id}'
         if not os.path.exists(args.cache_dir):
