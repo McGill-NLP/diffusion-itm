@@ -1,7 +1,7 @@
 # DiffusionITM
 Code and data setup for our paper [Are Diffusion Models Vision-and-language Reasoners?](https://arxiv.org/abs/2305.16397)
 
-![Summary of our method](images/mainfig.jpeg)
+<img src="images/mainfig.jpeg" width="200" height="200">
 
 Work-in-progress. Code and data will be fully released the next weeks (end of May).
 
