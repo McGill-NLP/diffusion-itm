@@ -208,7 +208,7 @@ if __name__ == '__main__':
     parser.add_argument('--cuda_device', type=int, default=0)
     parser.add_argument('--batchsize', type=int, default=4)
     parser.add_argument('--subset', action='store_true')
-    parser.add_argument('--sampling_steps', type=int, default=250)
+    parser.add_argument('--sampling_steps', type=int, default=10)
     parser.add_argument('--img_retrieval', action='store_true')
     parser.add_argument('--gray_baseline', action='store_true')
     parser.add_argument('--version', type=str, default='2.1')
