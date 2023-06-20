@@ -3,7 +3,7 @@ Code and data setup for our paper [Are Diffusion Models Vision-and-language Reas
 
 <img src="images/mainfig.jpeg" width="500" height="500">
 
-Work-in-progress. Code and data will be fully released the next weeks (end of May).
+Work-in-progress. Code and data will be fully released the next weeks (end of June).
 
 <!-- ## Setup
 
