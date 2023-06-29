@@ -21,6 +21,7 @@ Download the images from [Kaggle](https://www.kaggle.com/datasets/hsankesara/fli
 Nothing to do since the ARO repository will download VG and COCO by itself.
 
 ### Pets
+Images: https://thor.robots.ox.ac.uk/~vgg/data/pets/images.tar.gz
 
 ### CLEVR
 
