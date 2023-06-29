@@ -14,7 +14,7 @@ Install torch & torchvision.
 
 ### Flickr30K
 
-Download the images from [Kaggle](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset) and put them under datasets `datasets/flickr30k/images`.
+Download the images from [Kaggle](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset) and save them under datasets: `datasets/flickr30k/images`.
 
 ### ARO
 
@@ -24,6 +24,10 @@ Nothing to do since the ARO repository will download VG and COCO by itself.
 Images: https://thor.robots.ox.ac.uk/~vgg/data/pets/images.tar.gz
 
 ### CLEVR
+
+```
+wget https://zenodo.org/record/8096756/files/images.zip
+```
 
 ### SVO
 
