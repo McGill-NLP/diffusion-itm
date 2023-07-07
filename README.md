@@ -14,7 +14,6 @@ git clone --recurse-submodules git@github.com:McGill-NLP/diffusion-itm.git
 git clone --recurse-submodules ...
 
 Install torch & torchvision.
-Navigate to diffusers and run setup.py install
 
 ## Dataset Setup
 
