@@ -31,7 +31,11 @@ wget https://zenodo.org/record/8096756/files/images.zip
 
 ### SVO
 
+Run datasets/svo/download.py
+
 ### ImageCoDe
+
+wget https://zenodo.org/record/6518944/files/image-sets.zip
 
 ### Winoground
 
