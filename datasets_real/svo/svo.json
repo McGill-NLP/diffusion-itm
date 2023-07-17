@@ -1,0 +1,26 @@
+[
+    {
+        "pos_id": "0.jpg",
+        "neg_id": "1.jpg",
+        "sentence": "Girl is standing in the grass.",
+        "pos_triplet": "girl,stand,grass",
+        "neg_triplet": "dog,stand,grass",
+        "neg_type": "subj"
+    },
+    {
+        "pos_id": "4.jpg",
+        "neg_id": "5.jpg",
+        "sentence": "A father holds a baby.",
+        "pos_triplet": "father,hold,baby",
+        "neg_triplet": "person,hold,baby",
+        "neg_type": "subj"
+    },
+    {
+        "pos_id": "6.jpg",
+        "neg_id": "7.jpg",
+        "sentence": "A car passes another on a street.",
+        "pos_triplet": "car,pass,street",
+        "neg_triplet": "car,hit,street",
+        "neg_type": "verb"
+    }
+]

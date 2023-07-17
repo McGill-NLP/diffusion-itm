@@ -39,7 +39,7 @@ def download_image(url, file_name):
 def main():
     # Load the csv
     print("Loading CSV file...")
-    data = pd.read_csv('svo_probes.csv')
+    data = pd.read_csv('datasets/svo/svo_probes.csv')
     print("CSV file loaded successfully.")
     
     # Limiting to first 10 rows for testing
@@ -49,7 +49,7 @@ def main():
     json_data = []
 
     # Image directory
-    image_dir = 'images/'
+    image_dir = 'datasets/svo/images/'
     if not os.path.exists(image_dir):
         print(f"Creating directory: {image_dir}")
         os.makedirs(image_dir)
@@ -83,7 +83,7 @@ def main():
 
         # Write out the json file
         print("Writing data to JSON file...")
-        with open('svo.json', 'w') as outfile:
+        with open('datasets/svo/svo.json', 'w') as outfile:
             json.dump(json_data, outfile, indent=4)
         print("JSON file created successfully.")
 

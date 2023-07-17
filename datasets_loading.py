@@ -256,6 +256,7 @@ class WinogroundDataset(Dataset):
     def __init__(self, root_dir, transform, resize=512, scoring_only=False):
         self.root_dir = root_dir
         self.data = json.load(open(f'{root_dir}/data.json', 'r'))
+        _ = load_dataset('facebook/winoground', use_auth_token=<YOUR USER ACCESS TOKEN>)
         self.resize = resize
         self.transform = transform
         self.scoring_only = scoring_only
@@ -268,8 +269,8 @@ class WinogroundDataset(Dataset):
         cap0 = ex['caption_0']
         cap1 = ex['caption_1']
         img_id = ex['id']
-        img_path0 = f'{self.root_dir}/images/ex_{img_id}_img_0.png'
-        img_path1 = f'{self.root_dir}/images/ex_{img_id}_img_1.png'
+        img_path0 = f'/images/ex_{img_id}_img_0.png'
+        img_path1 = f'/images/ex_{img_id}_img_1.png'
         if not self.scoring_only:
             img0 = Image.open(img_path0).convert("RGB")
             img1 = Image.open(img_path1).convert("RGB")
