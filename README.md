@@ -11,9 +11,7 @@ IMPORTANT: Clone the repository with the sumbodules option:
 git clone --recurse-submodules git@github.com:McGill-NLP/diffusion-itm.git
 ```
 
-git clone --recurse-submodules ...
-
-Install torch & torchvision.
+Make a new python environment and install torch (1.13.0) & torchvision (0.14.0).
 
 ## Dataset Setup
 
