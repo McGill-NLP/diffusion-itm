@@ -11,11 +11,17 @@ IMPORTANT: Clone the repository with the sumbodules option:
 git clone --recurse-submodules git@github.com:McGill-NLP/diffusion-itm.git
 ```
 
-Make a new python environment and install torch (1.13.0), torchvision (0.14.0) and pandas.
+Run:
+```
+python3 setup.py install
+```
+
+Make a new python environment and install torch (1.13.0), torchvision (0.14.0), tqdm and pandas.
 
 ## Dataset Setup
 
 Run `setup.sh` to download images for several of the datasets (CLEVR, SVO, ImageCoDe, Pets).
+If you only want to try a subset of tasks, simply comment out lines, i.e. downloading SVO images can take several hours so only run it if you want to evaluate on SVO.
 For the rest, there are some small manual steps:
 
 ### Flickr30K
