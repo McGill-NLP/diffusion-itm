@@ -2,6 +2,7 @@ import pandas as pd
 import requests
 import json
 import os
+from tqdm import tqdm
 
 def is_downloadable(url):
     """
@@ -54,7 +55,7 @@ def main():
         print(f"Creating directory: {image_dir}")
         os.makedirs(image_dir)
 
-    for index, row in data.iterrows():
+    for index, row in tqdm(data.iterrows(), total=data.shape[0]):
         print(f"Processing row {index + 1}...")
         pos_url = row['pos_url']
         neg_url = row['neg_url']
