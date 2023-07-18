@@ -257,7 +257,7 @@ class WinogroundDataset(Dataset):
     def __init__(self, root_dir, transform, resize=512, scoring_only=False):
         self.root_dir = root_dir
         self.data = json.load(open(f'{root_dir}/data.json', 'r'))
-        _ = load_dataset('facebook/winoground', use_auth_token='YOUR USER ACCESS TOKEN')
+        _ = load_dataset('facebook/winoground', use_auth_token='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')
         self.resize = resize
         self.transform = transform
         self.scoring_only = scoring_only
