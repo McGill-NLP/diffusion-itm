@@ -255,9 +255,7 @@ class BiasDataset(Dataset):
 
 class WinogroundDataset(Dataset):
     def __init__(self, root_dir, transform, resize=512, scoring_only=False):
-        self.root_dir = root_dir
-        self.data = json.load(open(f'{root_dir}/data.json', 'r'))
-        _ = load_dataset('facebook/winoground', use_auth_token='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')
+        self.examples = load_dataset('facebook/winoground', use_auth_token='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')
         self.resize = resize
         self.transform = transform
         self.scoring_only = scoring_only
@@ -266,15 +264,13 @@ class WinogroundDataset(Dataset):
         return len(self.data)
     
     def __getitem__(self, idx):
-        ex = self.data[idx]
+        ex = self.examples['test'][idx]
         cap0 = ex['caption_0']
         cap1 = ex['caption_1']
         img_id = ex['id']
-        img_path0 = f'/images/ex_{img_id}_img_0.png'
-        img_path1 = f'/images/ex_{img_id}_img_1.png'
         if not self.scoring_only:
-            img0 = Image.open(img_path0).convert("RGB")
-            img1 = Image.open(img_path1).convert("RGB")
+            img0 = ex['image_0']
+            img1 = ex['image_1']
             if self.transform:
                 img0_resize = self.transform(img0).unsqueeze(0)
                 img1_resize = self.transform(img1).unsqueeze(0)
