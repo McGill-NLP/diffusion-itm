@@ -261,7 +261,7 @@ class WinogroundDataset(Dataset):
         self.scoring_only = scoring_only
 
     def __len__(self):
-        return len(self.data)
+        return len(self.examples['test'])
     
     def __getitem__(self, idx):
         ex = self.examples['test'][idx]
