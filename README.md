@@ -16,17 +16,17 @@ Run:
 python3 setup.py install
 ```
 
-Make a new python environment and install torch (1.13.0), torchvision (0.14.0), transformers (4.26.1), accelerate (0.16.0) , easydict, tqdm and pandas.
+Make a new python environment and install torch (1.13.0), torchvision (0.14.0), transformers (4.26.1), accelerate (0.16.0), data (2.10.1), easydict, tqdm and pandas.
 
 ## Dataset Setup
 
-Run `setup.sh` to download images for several of the datasets (CLEVR, SVO, ImageCoDe, Pets).
+Run `setup.sh` to download images for several of the data (CLEVR, SVO, ImageCoDe, Pets).
 If you only want to try a subset of tasks, simply comment out lines, i.e. downloading SVO images can take several hours so only run it if you want to evaluate on SVO.
 For the rest, there are some small manual steps:
 
 ### Flickr30K
 
-Download the images from [Kaggle](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset) and save them under datasets: `datasets/flickr30k/images`.
+Download the images from [Kaggle](https://www.kaggle.com/data/hsankesara/flickr-image-dataset) and save them under data: `data/flickr30k/images`.
 
 <!-- ### ARO
 
@@ -43,7 +43,8 @@ wget https://zenodo.org/record/8096756/files/images.zip
 
 ### SVO
 
-Run datasets/svo/download.py
+<<<<<<< HEAD
+Run data/svo/download.py
 
 ### ImageCoDe
 
@@ -55,7 +56,7 @@ Fill in AUTH_TOKEN in line 259
 
 ### Bias
 
-We will have instructions for these datasets soon.
+We will have instructions for these data soon.
 
 ## Zero-shot Image-Text-Matching
 

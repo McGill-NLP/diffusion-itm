@@ -60,7 +60,7 @@ def main(args):
     if args.lora_dir != '':
         model.unet.load_attn_procs(args.lora_dir)
 
-    dataset = get_dataset(args.task, f'datasets/{args.task}', transform=None, targets=args.targets)
+    dataset = get_dataset(args.task, f'data/{args.task}', transform=None, targets=args.targets)
 
     dataloader = DataLoader(dataset, batch_size=args.batchsize, shuffle=False, num_workers=0)
 

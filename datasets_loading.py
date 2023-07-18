@@ -291,7 +291,7 @@ class WinogroundDataset(Dataset):
 
 class ImageCoDeDataset(Dataset):
     def __init__(self, root_dir, split, transform, resize=512, scoring_only=False, static=True):
-        self.root_dir = 'datasets/imagecode'
+        self.root_dir = 'data/imagecode'
         self.resize = resize
         self.dataset = self.load_data(self.root_dir, split, static_only=static)
         self.transform = transform
@@ -340,7 +340,7 @@ class ImageCoDeDataset(Dataset):
 
 class MSCOCODataset(Dataset):
     def __init__(self, root_dir, transform, resize=512, split='val', tokenizer=None, hard_neg=True, neg_img=False, mixed_neg=False, tsv_path='aro/temp_data/train_neg_clip.tsv'):
-        self.root_dir = 'datasets/mscoco/train2014'
+        self.root_dir = 'data/mscoco/train2014'
         self.resize = resize
         self.data = pd.read_csv(tsv_path, delimiter='\t')
         self.all_texts = self.data['title'].tolist()
@@ -364,7 +364,7 @@ class MSCOCODataset(Dataset):
         if 'train2014' in img_path:
             img_path = f"{self.root_dir}/{img_path}"
         else:
-            img_path = f"datasets/coco_order/val2014/{img_path}"
+            img_path = f"data/coco_order/val2014/{img_path}"
         text = row['title']
         neg_captions =  ast.literal_eval(row['neg_caption'])
         neg_caption = neg_captions[np.random.randint(0, len(neg_captions))]
@@ -377,7 +377,7 @@ class MSCOCODataset(Dataset):
             if 'train2014' in path:
                 path = f"{self.root_dir}/{path}"
             else:
-                path = f"datasets/coco_order/val2014/{path}"
+                path = f"data/coco_order/val2014/{path}"
             new_neg_paths.append(path)
         neg_paths = new_neg_paths
         
@@ -432,7 +432,7 @@ class MSCOCODataset(Dataset):
 
 class ValidMSCOCODataset(Dataset):
     def __init__(self, root_dir, transform, resize=512, split='val', tokenizer=None, hard_neg=False, tsv_path='aro/temp_data/valid_neg_clip.tsv', neg_img=False):
-        self.root_dir = 'datasets/mscoco/'
+        self.root_dir = 'data/mscoco/'
         self.resize = resize
         self.data = pd.read_csv(tsv_path, delimiter='\t')
         self.transform = transform
@@ -451,7 +451,7 @@ class ValidMSCOCODataset(Dataset):
         img_path = row['filepath']
         # only get filename
         img_path = img_path.split('/')[-1]
-        img_path = f"datasets/coco_order/val2014/{img_path}"
+        img_path = f"data/coco_order/val2014/{img_path}"
         text = row['title']
         if self.hard_neg:
             neg_captions =  ast.literal_eval(row['neg_caption'])
@@ -468,7 +468,7 @@ class ValidMSCOCODataset(Dataset):
             if 'train2014' in path:
                 path = f"{self.root_dir}/{path}"
             else:
-                path = f"datasets/coco_order/val2014/{path}"
+                path = f"data/coco_order/val2014/{path}"
             new_neg_paths.append(path)
         neg_paths = new_neg_paths
 
@@ -541,7 +541,7 @@ class Flickr30KDataset(Dataset):
 
 class Flickr30KTextRetrievalDataset(Dataset):
     def __init__(self, root_dir, transform, resize=512, scoring_only=False, split='val', tokenizer=None, hard_neg=False, details=False):
-        self.root_dir = 'datasets/flickr30k'
+        self.root_dir = 'data/flickr30k'
         self.resize = resize
         self.data = json.load(open(f'{self.root_dir}/{split}_top10_RN50x64_text.json', 'r'))
         if split == 'val':
@@ -585,7 +585,7 @@ class Flickr30KTextRetrievalDataset(Dataset):
 
 class Flickr30KNegativesDataset(Dataset):
     def __init__(self, root_dir, transform, resize=512, scoring_only=False, split='val', tokenizer=None, hard_neg=False):
-        self.root_dir = 'datasets/flickr30k'
+        self.root_dir = 'data/flickr30k'
         self.resize = resize
         self.data = json.load(open(f'{self.root_dir}/{split}_top10_RN50x64_text.json', 'r'))
         if split == 'val':
@@ -680,7 +680,7 @@ class SVOClassificationDataset(Dataset):
 
     def __init__(self, root_dir, transform, resize=512, scoring_only=False, neg_type='verb'):
         self.transform = transform
-        self.root_dir = 'datasets/svo'
+        self.root_dir = 'data/svo'
         self.data = self.load_data(self.root_dir, neg_type=neg_type)
         self.resize = resize
         self.scoring_only = scoring_only
