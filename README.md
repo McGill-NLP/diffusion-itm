@@ -16,7 +16,11 @@ Run:
 python3 setup.py install
 ```
 
-Make a new python environment and install torch (1.13.0), torchvision (0.14.0), transformers (4.26.1), accelerate (0.16.0), data (2.10.1), easydict, tqdm and pandas.
+Make a new python environment and install torch (1.13.0), torchvision (0.14.0), transformers (4.26.1), accelerate (0.16.0), data (2.10.1), spacy (3.5.2), nltk, easydict, tqdm and pandas.
+If you want to use ARO, also run:
+```
+python -m spacy download en_core_web_sm
+```
 
 ## Dataset Setup
 

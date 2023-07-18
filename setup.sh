@@ -11,4 +11,6 @@ rm data/clevr/images.zip
 wget -P data/imagecode https://zenodo.org/record/6518944/files/image-sets.zip
 unzip data/imagecode/image-sets.zip -d data/imagecode/
 
+
+
 python3 data/svo/download.py
