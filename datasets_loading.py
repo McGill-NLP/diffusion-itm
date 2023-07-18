@@ -269,8 +269,8 @@ class WinogroundDataset(Dataset):
         cap1 = ex['caption_1']
         img_id = ex['id']
         if not self.scoring_only:
-            img0 = ex['image_0']
-            img1 = ex['image_1']
+            img0 = ex['image_0'].convert('RGB')
+            img1 = ex['image_1'].convert('RGB')
             if self.transform:
                 img0_resize = self.transform(img0).unsqueeze(0)
                 img1_resize = self.transform(img1).unsqueeze(0)
