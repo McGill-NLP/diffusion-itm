@@ -13,6 +13,7 @@ from glob import glob
 from aro.dataset_zoo import VG_Relation, VG_Attribution, COCO_Order, Flickr30k_Order
 import pandas as pd
 import ast
+from datasets import load_dataset
 
 def get_dataset(dataset_name, root_dir, transform=None, resize=512, scoring_only=False, tokenizer=None, split='val', max_train_samples=None, hard_neg=False, targets=None, neg_img=False, mixed_neg=False, details=False):
     if dataset_name == 'winoground':
