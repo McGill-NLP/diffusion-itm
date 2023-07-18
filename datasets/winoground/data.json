@@ -1,0 +1,3602 @@
+[
+    {
+        "id": 0,
+        "caption_0": "an old person kisses a young person",
+        "caption_1": "a young person kisses an old person",
+        "tag": "Adjective-Age",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 1,
+        "caption_0": "the taller person hugs the shorter person",
+        "caption_1": "the shorter person hugs the taller person",
+        "tag": "Adjective-Size",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 2,
+        "caption_0": "the masked wrestler hits the unmasked wrestler",
+        "caption_1": "the unmasked wrestler hits the masked wrestler",
+        "tag": "Adjective-Manner",
+        "secondary_tag": "Series",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 3,
+        "caption_0": "a person watches an animal",
+        "caption_1": "an animal watches a person",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 4,
+        "caption_0": "the person without earrings pays the person with earrings",
+        "caption_1": "the person with earrings pays the person without earrings",
+        "tag": "Negation, Scope",
+        "secondary_tag": "Morpheme-Level",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 5,
+        "caption_0": "a bird eats a snake",
+        "caption_1": "a snake eats a bird",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 6,
+        "caption_0": "a plant was harmed by another organism, and that organism broke the plant into pieces",
+        "caption_1": "another organism was harmed by a plant, and that plant broke the organism into pieces",
+        "tag": "Determiner-Numeral, Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 7,
+        "caption_0": "a bottle is in water",
+        "caption_1": "water is in a bottle",
+        "tag": "Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 8,
+        "caption_0": "a tree smashed into a car",
+        "caption_1": "a car smashed into a tree",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 9,
+        "caption_0": "people fall on the leaves",
+        "caption_1": "the leaves fall on people",
+        "tag": "Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 10,
+        "caption_0": "the sail rests below the water",
+        "caption_1": "the water rests below the sail",
+        "tag": "Noun",
+        "secondary_tag": "Series",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 11,
+        "caption_0": "there is a table below someone",
+        "caption_1": "there is someone below a table",
+        "tag": "Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 12,
+        "caption_0": "the image shows a computer on top of books",
+        "caption_1": "the image shows books on top of a computer",
+        "tag": "Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 13,
+        "caption_0": "a caterpillar with some plants",
+        "caption_1": "a plant with some caterpillars",
+        "tag": "Noun",
+        "secondary_tag": "Morpheme-Level",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 14,
+        "caption_0": "there is a mug in some grass",
+        "caption_1": "there is some grass in a mug",
+        "tag": "Determiner-Numeral, Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 15,
+        "caption_0": "there are more skiers than snowboarders",
+        "caption_1": "there are more snowboarders than skiers",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 16,
+        "caption_0": "there are fewer forks than spoons",
+        "caption_1": "there are fewer spoons than forks",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 17,
+        "caption_0": "there are more ladybugs than flowers",
+        "caption_1": "there are more flowers than ladybugs",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 18,
+        "caption_0": "there is less orange juice than milk",
+        "caption_1": "there is less milk than orange juice",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 19,
+        "caption_0": "there is more dirt than empty space in the jar",
+        "caption_1": "there is more empty space than dirt in the jar",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 20,
+        "caption_0": "there is a bit less milk chocolate than white chocolate",
+        "caption_1": "there is a bit less white chocolate than milk chocolate",
+        "tag": "Adjective-Manner",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 21,
+        "caption_0": "a person sits and a dog stands",
+        "caption_1": "a person stands and a dog sits",
+        "tag": "Verb-Intransitive",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 22,
+        "caption_0": "The person with more facial hair lies awake while the other sleeps",
+        "caption_1": "The person with more facial hair sleeps while the other lies awake",
+        "tag": "Verb-Intransitive",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 23,
+        "caption_0": "the person in the middle is floating and some others are standing",
+        "caption_1": "the person in the middle is standing and some others are floating",
+        "tag": "Verb-Intransitive",
+        "secondary_tag": "Series",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 24,
+        "caption_0": "the person closer to the camera weightlifts and the person farther from the camera runs",
+        "caption_1": "the person closer to the camera runs and the person farther from the camera weightlifts",
+        "tag": "Verb-Intransitive",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 25,
+        "caption_0": "the person with the white collared shirt waters the plant while the other holds it",
+        "caption_1": "the person with the white collared shirt holds the plant while the other waters it",
+        "tag": "Verb-Transitive",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 26,
+        "caption_0": "the taller person chops food and the shorter person eats food",
+        "caption_1": "the taller person eats food and the shorter person chops food",
+        "tag": "Verb-Transitive",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 27,
+        "caption_0": "the person with the ponytail packs stuff and other buys it",
+        "caption_1": "the person with the ponytail buys stuff and other packs it",
+        "tag": "Verb-Transitive",
+        "secondary_tag": "Series",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 28,
+        "caption_0": "a person walking in a field of yellow flowers with a red dress",
+        "caption_1": "a person walking in a field of red flowers with a yellow dress",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 29,
+        "caption_0": "a brown dog is on a white couch",
+        "caption_1": "a white dog is on a brown couch",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 30,
+        "caption_0": "a blue bird is next to a red berry",
+        "caption_1": "a red bird is next to a blue berry",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 31,
+        "caption_0": "The red book is above the yellow book and below the blue book",
+        "caption_1": "The yellow book is above the blue book and below the red book",
+        "tag": "Adjective-Color (3-way swap)",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 32,
+        "caption_0": "astronauts in blue suits with a red planet in the background",
+        "caption_1": "astronauts in red suits with a blue planet in the background",
+        "tag": "Adjective-Color",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 33,
+        "caption_0": "the square table has a round base",
+        "caption_1": "the round table has a square base",
+        "tag": "Adjective-Shape",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 34,
+        "caption_0": "pointy bushes are behind rectangular bushes",
+        "caption_1": "rectangular bushes are behind pointy bushes",
+        "tag": "Adjective-Shape",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 35,
+        "caption_0": "a circular sign is above a rectangular sign",
+        "caption_1": "a rectangular sign is above a circular sign",
+        "tag": "Adjective-Shape",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 36,
+        "caption_0": "a wood chess piece rests on metal objects",
+        "caption_1": "a metal chess piece rests on wood objects",
+        "tag": "Adjective-Texture",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 37,
+        "caption_0": "soft shoes are on a smooth floor",
+        "caption_1": "smooth shoes are on a soft floor",
+        "tag": "Adjective-Texture",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 38,
+        "caption_0": "the happy person is on the right and the sad person is on the left",
+        "caption_1": "the sad person is on the right and the happy person is on the left",
+        "tag": "Adjective-Animate",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 39,
+        "caption_0": "the hurt person is on the left and the helpful person is on the right",
+        "caption_1": "the helpful person is on the left and the hurt person is on the right",
+        "tag": "Adjective-Animate",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 40,
+        "caption_0": "the more content person has the healthier food and the less content person has the less healthy food",
+        "caption_1": "the less content person has the healthier food and the more content person has the less healthy food",
+        "tag": "Adjective-Animate",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 41,
+        "caption_0": "the orange lollipop is sad and the red lollipop is surprised",
+        "caption_1": "the orange lollipop is surprised and the red lollipop is sad",
+        "tag": "Adjective-Animate",
+        "secondary_tag": "Symbolic, Series",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 42,
+        "caption_0": "the larger person wears yellow and the smaller person does not",
+        "caption_1": "the smaller person wears yellow and the larger person does not",
+        "tag": "Adjective-Size",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 43,
+        "caption_0": "a big cat is next to a small dog",
+        "caption_1": "a small cat is next to a big dog",
+        "tag": "Adjective-Size",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 44,
+        "caption_0": "the heavy oncoming traffic is contrasted with the light outgoing traffic",
+        "caption_1": "the light oncoming traffic is contrasted with the heavy outgoing traffic",
+        "tag": "Adjective-Weight",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 45,
+        "caption_0": "a cold drink on a hot day",
+        "caption_1": "a hot drink on a cold day",
+        "tag": "Adjective-Temperature",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 46,
+        "caption_0": "a person is drinking now and eating later",
+        "caption_1": "a person is drinking later and eating now",
+        "tag": "Adverb-Temporal",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 47,
+        "caption_0": "the sailboat sails close but the beach is far away",
+        "caption_1": "the sailboat sails far away but the beach is close",
+        "tag": "Adverb-Spatial Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 48,
+        "caption_0": "the passenger is riding inattentive to the road and the driver is driving attentive to the road",
+        "caption_1": "the passenger is riding attentive to the road and the driver is driving inattentive to the road",
+        "tag": "Negation, Scope",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 49,
+        "caption_0": "it wears a hat but the person doesn't",
+        "caption_1": "the person wears a hat but it doesn't",
+        "tag": "Pronoun, Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 50,
+        "caption_0": "the person with green legs is running quite slowly and the red legged one runs faster",
+        "caption_1": "the person with green legs is running faster and the red legged one runs quite slowly",
+        "tag": "Adjective-Speed Phrase, Verb-Intransitive",
+        "secondary_tag": "Symbolic, Series",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 51,
+        "caption_0": "a person is in the water and close to the sand",
+        "caption_1": "a person is close to the water and in the sand",
+        "tag": "Preposition Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 52,
+        "caption_0": "a frog is above rocks which are under the water",
+        "caption_1": "a frog is under rocks which are above the water",
+        "tag": "Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 53,
+        "caption_0": "driving off the road and on the unpaved terrain",
+        "caption_1": "driving on the road and off the unpaved terrain",
+        "tag": "Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 54,
+        "caption_0": "someone is in a helicopter with a car",
+        "caption_1": "someone is with a helicopter in a car",
+        "tag": "Preposition",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 55,
+        "caption_0": "the green one can fit inside the blue one and the blue one can fit outside the green one",
+        "caption_1": "the green one can fit outside the blue one and the blue one can fit inside the green one",
+        "tag": "Preposition",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 56,
+        "caption_0": "jumping away from the photographer and towards the others",
+        "caption_1": "jumping towards the photographer and away from the others",
+        "tag": "Preposition Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 57,
+        "caption_0": "someone bakes the dough before the dough is eaten",
+        "caption_1": "the dough is eaten before someone bakes the dough",
+        "tag": "Sentence",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 58,
+        "caption_0": "it hatched before it was eaten",
+        "caption_1": "it was eaten before it hatched",
+        "tag": "Verb-Intransitive",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 59,
+        "caption_0": "there are three bananas and two apples",
+        "caption_1": "there are two bananas and three apples",
+        "tag": "Determiner-Numeral",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 60,
+        "caption_0": "someone has loaded their plate with one of the toast slices and two of the eggs",
+        "caption_1": "someone has loaded their plate with two of the toast slices and one of the eggs",
+        "tag": "Determiner-Numeral",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 61,
+        "caption_0": "there are three people and two windows",
+        "caption_1": "there are two people and three windows",
+        "tag": "Determiner-Numeral",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 62,
+        "caption_0": "there are 50 stars on the right flag and 5 stars on the left flag",
+        "caption_1": "there are 5 stars on the right flag and 50 stars on the left flag",
+        "tag": "Determiner-Numeral",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 63,
+        "caption_0": "no people wear blue shirts and six people wear white shirts",
+        "caption_1": "six people wear blue shirts and no people wear white shirts",
+        "tag": "Determiner-Numeral",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 64,
+        "caption_0": "the dog's leg is on the person's torso",
+        "caption_1": "the person's leg is on the dog's torso",
+        "tag": "Determiner-Possessive",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 65,
+        "caption_0": "the animal's eyes are bigger than the person's",
+        "caption_1": "the person's eyes are bigger than the animal's",
+        "tag": "Determiner-Possessive",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 66,
+        "caption_0": "the taller person's arm is around the shorter person's shoulder",
+        "caption_1": "the shorter person's arm is around the taller person's shoulder",
+        "tag": "Determiner-Possessive",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 67,
+        "caption_0": "the person in a brown coat looks back and the person in a black coat looks forward",
+        "caption_1": "the person in a black coat looks back and the person in a brown coat looks forward",
+        "tag": "Adjective-Color",
+        "secondary_tag": "Series",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 68,
+        "caption_0": "it ran away while they pursued",
+        "caption_1": "they ran away while it pursued",
+        "tag": "Pronoun, Verb-Intransitive",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 69,
+        "caption_0": "almost everyone is in a boat and one is swimming",
+        "caption_1": "one is in a boat and almost everyone is swimming",
+        "tag": "Determiner-Numeral Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 70,
+        "caption_0": "the person with the lighter shoes is holding an emoji and the person with the darker shoes isn't",
+        "caption_1": "the person with the darker shoes is holding an emoji and the person with the lighter shoes isn't",
+        "tag": "Adjective-Color",
+        "secondary_tag": "Symbolic, Series",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 71,
+        "caption_0": "the person wearing neutral colors poses and the person wearing brighter colors takes a picture",
+        "caption_1": "the person wearing brighter colors poses and the person wearing neutral colors takes a picture",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 72,
+        "caption_0": "it's a fire truck",
+        "caption_1": "it's a truck fire",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 73,
+        "caption_0": "watching the present",
+        "caption_1": "presenting the watch",
+        "tag": "Altered POS",
+        "secondary_tag": "Morpheme-Level",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 74,
+        "caption_0": "walking out on a rock",
+        "caption_1": "rocking out on a walk",
+        "tag": "Altered POS",
+        "secondary_tag": "Morpheme-Level",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 75,
+        "caption_0": "the kid with the magnifying glass looks at them",
+        "caption_1": "the kid looks at them with the magnifying glass",
+        "tag": "Preposition Phrase, Scope",
+        "secondary_tag": "Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 76,
+        "caption_0": "the person with the kids is sitting",
+        "caption_1": "the person is sitting with the kids",
+        "tag": "Preposition Phrase, Scope",
+        "secondary_tag": "Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 77,
+        "caption_0": "the people with shoes are touching each other",
+        "caption_1": "the people are touching each other with shoes",
+        "tag": "Preposition Phrase, Scope",
+        "secondary_tag": "Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 78,
+        "caption_0": "someone with an apple is hurt by a tree",
+        "caption_1": "someone is hurt by a tree with an apple",
+        "tag": "Preposition Phrase, Scope",
+        "secondary_tag": "Symbolic, Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 79,
+        "caption_0": "the person that is on the table is eating the food",
+        "caption_1": "the person is eating the food that is on the table",
+        "tag": "Preposition Phrase, Scope",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 80,
+        "caption_0": "the watering can is larger than the pot",
+        "caption_1": "the pot is larger than the watering can",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 81,
+        "caption_0": "they hold a suitcase handle with their left hand and they hold a passport with their right hand",
+        "caption_1": "they hold a passport with their left hand and they hold a suitcase handle with their right hand",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 82,
+        "caption_0": "the person with the patterned shirt is curly-haired and the other is straight-haired",
+        "caption_1": "the person with the patterned shirt is straight-haired and the other is curly-haired",
+        "tag": "Adjective-Texture",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 83,
+        "caption_0": "a diagram showing movement from right to left",
+        "caption_1": "a diagram showing movement from left to right",
+        "tag": "Preposition",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 84,
+        "caption_0": "the flip flops are too big for these feet",
+        "caption_1": "the feet are too big for these flip flops",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 85,
+        "caption_0": "the person who is wearing a crown is kissing a frog",
+        "caption_1": "the person is kissing a frog who is wearing a crown",
+        "tag": "Relative Clause, Scope",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 86,
+        "caption_0": "a dog sitting on a couch with a person lying on the floor",
+        "caption_1": "a person lying on a couch with a dog sitting on the floor",
+        "tag": "Noun, Verb-Intransitive",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 87,
+        "caption_0": "The uncaged bird has an opened cage door",
+        "caption_1": "The caged bird has an unopened cage door",
+        "tag": "Negation, Scope",
+        "secondary_tag": "Morpheme-Level, Series",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 88,
+        "caption_0": "meat with potatoes",
+        "caption_1": "potatoes with meat",
+        "tag": "Noun",
+        "secondary_tag": "Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 89,
+        "caption_0": "the person in pink was close to not winning",
+        "caption_1": "the person in pink was not close to winning",
+        "tag": "Negation, Scope",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 90,
+        "caption_0": "two humans and one wheel",
+        "caption_1": "two wheels and one human",
+        "tag": "Noun",
+        "secondary_tag": "Morpheme-Level",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 91,
+        "caption_0": "clothing on lines",
+        "caption_1": "lines on clothing",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 92,
+        "caption_0": "someone talks on the phone angrily while another person sits happily",
+        "caption_1": "someone talks on the phone happily while another person sits angrily",
+        "tag": "Adverb-Animate",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 93,
+        "caption_0": "two boats and one direction down the stream",
+        "caption_1": "one boat and two directions down the stream",
+        "tag": "Determiner-Numeral",
+        "secondary_tag": "Symbolic, Morpheme-Level",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 94,
+        "caption_0": "The dog rides without a visible tongue",
+        "caption_1": "The dog rides with a visible tongue out",
+        "tag": "Negation, Scope",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 95,
+        "caption_0": "handing a hammer",
+        "caption_1": "hammering a hand",
+        "tag": "Altered POS",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 96,
+        "caption_0": "leaves its shedding",
+        "caption_1": "shedding its leaves",
+        "tag": "Altered POS",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 97,
+        "caption_0": "they are using no bait but still got fish",
+        "caption_1": "they are using bait but still got no fish",
+        "tag": "Negation, Scope",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 98,
+        "caption_0": "someone on the ground is spraying water towards a vehicle",
+        "caption_1": "someone is on a vehicle spraying water towards the ground",
+        "tag": "Verb-Transitive, Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 99,
+        "caption_0": "the dog wears as a hat what someone would normally bite",
+        "caption_1": "the dog bites what someone would normally wear as a hat",
+        "tag": "Verb-Transitive Phrase, Verb-Intransitive, Preposition Phrase",
+        "secondary_tag": "Morpheme-Level",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 100,
+        "caption_0": "the happy one is on the left and the upset one is on the right",
+        "caption_1": "the upset one is on the left and the happy one is on the right",
+        "tag": "Adjective-Animate",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 101,
+        "caption_0": "fake mustache and real hair on head",
+        "caption_1": "real mustache and fake hair on head",
+        "tag": "Adjective-Animate",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 102,
+        "caption_0": "real cat with toy baby",
+        "caption_1": "toy cat with real baby",
+        "tag": "Adjective-Animate",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 103,
+        "caption_0": "the lion is loud and the lionness is quiet",
+        "caption_1": "the lion is quiet and the lionness is loud",
+        "tag": "Adjective-Animate",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 104,
+        "caption_0": "there is a pink couch with green pillows",
+        "caption_1": "there is a green couch with pink pillows",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 105,
+        "caption_0": "light colored dog with dark colored cat",
+        "caption_1": "dark colored dog with light colored cat",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 106,
+        "caption_0": "someone is wearing a black hat and yellow shirt",
+        "caption_1": "someone is wearing a yellow hat and black shirt",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 107,
+        "caption_0": "black socks and orange shoes",
+        "caption_1": "orange socks and black shoes",
+        "tag": "Adjective-Color",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 108,
+        "caption_0": "red building with white shutters",
+        "caption_1": "white building with red shutters",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 109,
+        "caption_0": "blue pants and green top",
+        "caption_1": "green pants and blue top",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 110,
+        "caption_0": "there's one blue and many yellow balls",
+        "caption_1": "there's one yellow and many blue balls",
+        "tag": "Adjective-Color",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 111,
+        "caption_0": "there are more silver coins than gold coins",
+        "caption_1": "there are more gold coins than silver coins",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 112,
+        "caption_0": "the red team kicking the ball directly next to the blue team",
+        "caption_1": "the blue team kicking the ball directly next to the red team",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 113,
+        "caption_0": "black dog wearing a brown sweater",
+        "caption_1": "brown dog wearing a black sweater",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 114,
+        "caption_0": "one green apple surrounded by a bunch of red apples",
+        "caption_1": "one red apple surrounded by a bunch of green apples",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 115,
+        "caption_0": "person in white is reading the orange book",
+        "caption_1": "person in orange is reading the white book",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 116,
+        "caption_0": "the children are being quiet while the adult is loud",
+        "caption_1": "the children are being loud while the adult is quiet",
+        "tag": "Adjective-Manner",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 117,
+        "caption_0": "the circular mirror is on the left and the rectangular mirror is on the right",
+        "caption_1": "the rectangular mirror is on the left and the circular mirror is on the right",
+        "tag": "Adjective-Shape",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 118,
+        "caption_0": "circular food on heart-shaped wood",
+        "caption_1": "heart-shaped food on circular wood",
+        "tag": "Adjective-Shape",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 119,
+        "caption_0": "the dress on the left is long and the dress on the right is short",
+        "caption_1": "the dress on the left is short and the dress on the right is long",
+        "tag": "Adjective-Size",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 120,
+        "caption_0": "the balloon in the middle has less air and the other balloons have more air",
+        "caption_1": "the balloon in the middle has more air and the other balloons have less air",
+        "tag": "Adjective-Size",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 121,
+        "caption_0": "the pool has no people and the area around it has a lot of people",
+        "caption_1": "the pool has a lot of people and the area around it has no people",
+        "tag": "Adjective-Size",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 122,
+        "caption_0": "big fish beside a small person",
+        "caption_1": "small fish beside a big person",
+        "tag": "Adjective-Size",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 123,
+        "caption_0": "the train is moving fast while the person is still",
+        "caption_1": "the train is still while the person is moving fast",
+        "tag": "Adjective-Speed",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 124,
+        "caption_0": "they're enjoying hot water on a cold day",
+        "caption_1": "they're enjoying cold water on a hot day",
+        "tag": "Adjective-Temperature",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 125,
+        "caption_0": "concrete floors with wood walls",
+        "caption_1": "wood floors with concrete walls",
+        "tag": "Adjective-Texture",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 126,
+        "caption_0": "the person on the left has curly hair and the person on the right has straight hair",
+        "caption_1": "the person on the left has straight hair and the person on the right has curly hair",
+        "tag": "Adjective-Texture",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 127,
+        "caption_0": "there's a metal bottle with a plastic lid",
+        "caption_1": "there's a plastic bottle with a metal lid",
+        "tag": "Adjective-Texture",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 128,
+        "caption_0": "the fruit is heavy while the junk food is light",
+        "caption_1": "the fruit is light while the junk food is heavy",
+        "tag": "Adjective-Weight",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 129,
+        "caption_0": "the car is sitting upside down while the person is standing rightside up",
+        "caption_1": "the car is sitting rightside up while the person is standing upside down",
+        "tag": "Adverb-Spatial",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 130,
+        "caption_0": "the cup on the left is filled first and the cup on the right is filled second",
+        "caption_1": "the cup on the left is filled second and the cup on the right is filled first",
+        "tag": "Adverb-Temporal",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 131,
+        "caption_0": "milk cow",
+        "caption_1": "cow milk",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 132,
+        "caption_0": "there is a clock wall",
+        "caption_1": "there is a wall clock",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 133,
+        "caption_0": "there is a split banana",
+        "caption_1": "there is a banana split",
+        "tag": "Altered POS",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 134,
+        "caption_0": "there are two people and a bunch of horses",
+        "caption_1": "there are a bunch of people and two horses",
+        "tag": "Determiner-Numeral",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 135,
+        "caption_0": "three white and two brown eggs",
+        "caption_1": "two white and three brown eggs",
+        "tag": "Determiner-Numeral",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 136,
+        "caption_0": "the plastic is in the fish",
+        "caption_1": "the fish is in the plastic",
+        "tag": "Noun",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 137,
+        "caption_0": "the dog's paw is on the cat's face",
+        "caption_1": "the cat's paw is on the dog's face",
+        "tag": "Determiner-Possessive",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 138,
+        "caption_0": "the computer's screen is on and the phone's screen is off",
+        "caption_1": "the phone's screen is on and the computer's screen is off",
+        "tag": "Determiner-Possessive",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 139,
+        "caption_0": "the dog is in the driver's seat and the person is in the passenger's seat",
+        "caption_1": "the dog is in the passenger's seat and the person is in the driver's seat",
+        "tag": "Determiner-Possessive",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 140,
+        "caption_0": "there are more trees than people",
+        "caption_1": "there are more people than trees",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 141,
+        "caption_0": "there are more computers than people",
+        "caption_1": "there are more people than computers",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 142,
+        "caption_0": "there is more wood than metal",
+        "caption_1": "there is more metal than wood",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 143,
+        "caption_0": "there are more hats than people",
+        "caption_1": "there are more people than hats",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 144,
+        "caption_0": "there are more people than stools",
+        "caption_1": "there are more stools than people",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 145,
+        "caption_0": "there is more red wine than white wine",
+        "caption_1": "there is more white wine than red wine",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 146,
+        "caption_0": "there's more milk than coffee",
+        "caption_1": "there's more coffee than milk",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 147,
+        "caption_0": "there's more cereal in the bowl than milk",
+        "caption_1": "there's more milk in the bowl than cereal",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 148,
+        "caption_0": "boat sail",
+        "caption_1": "sail boat",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 149,
+        "caption_0": "boat house",
+        "caption_1": "house boat",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 150,
+        "caption_0": "check a rip",
+        "caption_1": "rip a check",
+        "tag": "Altered POS",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 151,
+        "caption_0": "dress the display",
+        "caption_1": "display the dress",
+        "tag": "Altered POS",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 152,
+        "caption_0": "spoon holding honey",
+        "caption_1": "honey holding spoon",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 153,
+        "caption_0": "books holding up a person",
+        "caption_1": "a person holding up books",
+        "tag": "Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 154,
+        "caption_0": "a dog is using a wheelchair next to a person",
+        "caption_1": "a person is using a wheelchair next to a dog",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 155,
+        "caption_0": "some plants surrounding a lightbulb",
+        "caption_1": "a lightbulb surrounding some plants",
+        "tag": "Determiner-Numeral, Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 156,
+        "caption_0": "a more lightly-colored dog is holding a toy next to a black dog",
+        "caption_1": "a black dog is holding a toy next to a more lightly-colored dog",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 157,
+        "caption_0": "the flowers are taller than the people",
+        "caption_1": "the people are taller than the flowers",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 158,
+        "caption_0": "there's a human in a stroller next to a dog",
+        "caption_1": "there's a dog in a stroller next to a human",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 159,
+        "caption_0": "a person is casting a shadow beside a ball",
+        "caption_1": "a ball is casting a shadow beside a person",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 160,
+        "caption_0": "its tail is shorter than its body",
+        "caption_1": "its body is shorter than its tail",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 161,
+        "caption_0": "the child is throwing the adult the ball",
+        "caption_1": "the adult is throwing the child the ball",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 162,
+        "caption_0": "a person underneath lights",
+        "caption_1": "lights underneath a person",
+        "tag": "Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 163,
+        "caption_0": "some green on the ball",
+        "caption_1": "the ball on some green",
+        "tag": "Determiner-Numeral, Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 164,
+        "caption_0": "mind in the clouds",
+        "caption_1": "clouds in the mind",
+        "tag": "Noun",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 165,
+        "caption_0": "there's a phone on a map",
+        "caption_1": "there's a map on a phone",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 166,
+        "caption_0": "a person on a rock next to a dog",
+        "caption_1": "a dog on a rock next to a person",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 167,
+        "caption_0": "an adult is flexing beside a child",
+        "caption_1": "a child is flexing beside an adult",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 168,
+        "caption_0": "the person is looking at the dog",
+        "caption_1": "the dog is looking at the person",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 169,
+        "caption_0": "a cat is underneath a red blanket",
+        "caption_1": "a red blanket is underneath a cat",
+        "tag": "Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 170,
+        "caption_0": "the person is bigger than the house",
+        "caption_1": "the house is bigger than the person",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 171,
+        "caption_0": "the person is underneath the car",
+        "caption_1": "the car is underneath the person",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 172,
+        "caption_0": "the water is filled with plastic",
+        "caption_1": "the plastic is filled with water",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 173,
+        "caption_0": "an apple is on a target",
+        "caption_1": "a target is on an apple",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 174,
+        "caption_0": "plant made out of a light bulb",
+        "caption_1": "light bulb made out of a plant",
+        "tag": "Noun",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 175,
+        "caption_0": "parent pointing at child",
+        "caption_1": "child pointing at parent",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 176,
+        "caption_0": "the person reached the base before the ball",
+        "caption_1": "the ball reached the base before the person",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 177,
+        "caption_0": "ice being dumped on top of fish",
+        "caption_1": "fish being dumped on top of ice",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 178,
+        "caption_0": "an adult kisses a child",
+        "caption_1": "a child kisses an adult",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 179,
+        "caption_0": "there's a dog in a mask and a person beside it",
+        "caption_1": "there's a dog and a person in a mask beside it",
+        "tag": "Preposition Phrase, Scope",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 180,
+        "caption_0": "the baby on the phone is next to an adult",
+        "caption_1": "the baby is next to an adult on the phone",
+        "tag": "Preposition Phrase, Scope",
+        "secondary_tag": "Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 181,
+        "caption_0": "the person on the left has their arms up and the person on the right has their arms down",
+        "caption_1": "the person on the right has their arms up and the person on the left has their arms down",
+        "tag": "Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 182,
+        "caption_0": "the person on the left is holding the phone and the person on the right is staring at it",
+        "caption_1": "the person on the right is holding the phone and the person on the left is staring at it",
+        "tag": "Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 183,
+        "caption_0": "the orange on the left is moldy while the orange on the right is fresh",
+        "caption_1": "the orange on the right is moldy while the orange on the left is fresh",
+        "tag": "Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 184,
+        "caption_0": "a pink scoop of ice cream on top and a blue scoop on bottom",
+        "caption_1": "a pink scoop of ice cream on bottom and a blue scoop on top",
+        "tag": "Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 185,
+        "caption_0": "the glasses on the right are fuller than the glasses on the left",
+        "caption_1": "the glasses on the left are fuller than the glasses on the right",
+        "tag": "Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 186,
+        "caption_0": "the person on the left is blowing bubbles and the person on the right is watching",
+        "caption_1": "the person on the right is blowing bubbles and the person on the left is watching",
+        "tag": "Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 187,
+        "caption_0": "there's more foam on the left than on the right",
+        "caption_1": "there's more foam on the right than on the left",
+        "tag": "Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 188,
+        "caption_0": "a fish is jumping from left to right",
+        "caption_1": "a fish is jumping from right to left",
+        "tag": "Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 189,
+        "caption_0": "they worked out then they drank water",
+        "caption_1": "they drank water then they worked out",
+        "tag": "Verb-Transitive Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 190,
+        "caption_0": "the shrimp are peeled then the shrimp are cooked",
+        "caption_1": "the shrimp are cooked then the shrimp are peeled",
+        "tag": "Verb-Intransitive",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 191,
+        "caption_0": "the coffee is poured before it is ground",
+        "caption_1": "it is ground before the coffee is poured",
+        "tag": "Sentence",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 192,
+        "caption_0": "the potato is washed and then it is cut",
+        "caption_1": "the potato is cut and then it is washed",
+        "tag": "Verb-Intransitive",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 193,
+        "caption_0": "the banana is peeled then it is sliced",
+        "caption_1": "the banana is sliced then it is peeled",
+        "tag": "Verb-Intransitive",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 194,
+        "caption_0": "the dog is swimming and the person is standing",
+        "caption_1": "the dog is standing and the person is swimming",
+        "tag": "Verb-Intransitive, Noun",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 195,
+        "caption_0": "the person is jumping while the cat is sitting",
+        "caption_1": "the person is sitting while the cat is jumping",
+        "tag": "Verb-Intransitive, Noun",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 196,
+        "caption_0": "a cat is lying down and a person is stretching",
+        "caption_1": "a cat is stretching and a person is lying down",
+        "tag": "Verb-Intransitive Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 197,
+        "caption_0": "some people are standing but more are sitting",
+        "caption_1": "some people are sitting but more are standing",
+        "tag": "Verb-Intransitive, Determiner-Numeral",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 198,
+        "caption_0": "The kid throws the pancake and the adult sees it",
+        "caption_1": "The kids see the pancake and the adult throws it",
+        "tag": "Verb-Transitive",
+        "secondary_tag": "Morpheme-Level",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 199,
+        "caption_0": "painting gray walls white",
+        "caption_1": "painting white walls gray",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 200,
+        "caption_0": "a shorter person wearing blue standing next to a taller person",
+        "caption_1": "a taller person wearing blue standing next to a shorter person",
+        "tag": "Adjective-Height",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 201,
+        "caption_0": "a person wearing a bear mask in blue on the left hand side of a person wearing a panda mask with glasses in pink",
+        "caption_1": "a person wearing a panda mask with glasses in blue on the left hand side of a person wearing a bear mask in pink",
+        "tag": "Noun, Preposition Phrase, Scope",
+        "secondary_tag": "Series",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 202,
+        "caption_0": "a car containing many a box",
+        "caption_1": "a box containing many a car",
+        "tag": "Noun",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 203,
+        "caption_0": "left is red and right is blue",
+        "caption_1": "left is blue and right is red",
+        "tag": "Adjective-Color",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 204,
+        "caption_0": "many a table tennis racket, just one ball",
+        "caption_1": "just one table tennis racket, many a ball",
+        "tag": "Determiner-Numeral",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 205,
+        "caption_0": "four lions, no tigers",
+        "caption_1": "no lions, four tigers",
+        "tag": "Determiner-Numeral",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 206,
+        "caption_0": "a small spherical object is heavier than a big spherical object",
+        "caption_1": "a big spherical object is heavier than a small spherical object",
+        "tag": "Adjective-Size",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 207,
+        "caption_0": "an older person blocking a younger person",
+        "caption_1": "a younger person blocking an older person",
+        "tag": "Adjective-Age",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 208,
+        "caption_0": "white land and black water",
+        "caption_1": "black land and white water",
+        "tag": "Adjective-Color",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 209,
+        "caption_0": "the cube is smaller than the shape whose lateral faces meet at a vertex",
+        "caption_1": "the shape whose lateral faces meet at a vertex is smaller than the cube",
+        "tag": "Noun Phrase",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 210,
+        "caption_0": "more bicycles than cars",
+        "caption_1": "more cars than bicycles",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 211,
+        "caption_0": "there are more apples than pears",
+        "caption_1": "there are more pears than apples",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 212,
+        "caption_0": "there is more love than hate",
+        "caption_1": "there is more hate than love",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 213,
+        "caption_0": "more water than oil",
+        "caption_1": "more oil than water",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 214,
+        "caption_0": "a person cries while another person wearing jewelry above their shoulders consoles",
+        "caption_1": "a person consoles while another person wearing jewelry above their shoulders cries",
+        "tag": "Verb-Intransitive",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 215,
+        "caption_0": "a person with long hair eating a meat-based product while a person with short hair snacks on some fries",
+        "caption_1": "a person with short hair eating a meat-based product while a person with long hair snacks on some fries",
+        "tag": "Adjective-Size",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 216,
+        "caption_0": "water below the boat",
+        "caption_1": "boat below the water",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 217,
+        "caption_0": "the one in front is faster than the other one",
+        "caption_1": "the other one is faster than the one in front",
+        "tag": "Noun Phrase",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 218,
+        "caption_0": "You can catch more flies with honey than you can with vinegar",
+        "caption_1": "You can catch more flies with vinegar than you can with honey",
+        "tag": "Noun",
+        "secondary_tag": "Pragmatics",
+        "num_main_preds": 2,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 219,
+        "caption_0": "It starts with \"A\" and ends with \"Z\"",
+        "caption_1": "It starts with \"Z\" and ends with \"A\"",
+        "tag": "Noun",
+        "secondary_tag": "Symbolic, Pragmatics",
+        "num_main_preds": 2,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 220,
+        "caption_0": "a shadow within the line",
+        "caption_1": "a line within the shadow",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 221,
+        "caption_0": "the brave in the face of fear",
+        "caption_1": "fear in the face of the brave",
+        "tag": "Noun Phrase",
+        "secondary_tag": "Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 222,
+        "caption_0": "I need my strength back",
+        "caption_1": "I need my back strength",
+        "tag": "Altered POS",
+        "secondary_tag": "Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 223,
+        "caption_0": "the one in the middle is taller than the ones on the side are",
+        "caption_1": "the ones on the side are taller than the one in the middle is",
+        "tag": "Sentence",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 224,
+        "caption_0": "fish flying",
+        "caption_1": "fly fishing",
+        "tag": "Altered POS",
+        "secondary_tag": "Morpheme-Level",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 225,
+        "caption_0": "the red car is behind the blue car",
+        "caption_1": "the blue car is behind the red car",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 226,
+        "caption_0": "the driver wearing a shirt is in front of the other person wearing a sleeveless top",
+        "caption_1": "the driver wearing a sleeveless top is in front of the other person wearing a shirt",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 227,
+        "caption_0": "an object that rolls is on some wood",
+        "caption_1": "some wood is on an object that rolls",
+        "tag": "Determiner-Numeral, Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 228,
+        "caption_0": "a cat viewing a human on a screen",
+        "caption_1": "a human viewing a cat on a screen",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 229,
+        "caption_0": "a normal person wishing they were a superhero",
+        "caption_1": "a superhero wishing they were a normal person",
+        "tag": "Noun Phrase",
+        "secondary_tag": "Symbolic, Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 230,
+        "caption_0": "a mike in the right hand while raising the left",
+        "caption_1": "a mike in the left hand while raising the right",
+        "tag": "Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 231,
+        "caption_0": "a person with long hair behind a person with a beard",
+        "caption_1": "a person with a beard behind a person with long hair",
+        "tag": "Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 232,
+        "caption_0": "the person with hair to their shoulders has brown eyes and the other person's are blue",
+        "caption_1": "the person with hair to their shoulders has blue eyes and the other person's are brown",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 233,
+        "caption_0": "a human being on a device that intercepts the sun's rays",
+        "caption_1": "a device that intercepts the sun's rays on a human being",
+        "tag": "Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 234,
+        "caption_0": "more humans than phones",
+        "caption_1": "more phones than humans",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 235,
+        "caption_0": "a person is in the tube",
+        "caption_1": "a tube is in the person",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 236,
+        "caption_0": "the person's head is above the rest of their body",
+        "caption_1": "the rest of their body is above the person's head",
+        "tag": "Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 237,
+        "caption_0": "person overboard",
+        "caption_1": "person over board",
+        "tag": "Scope",
+        "secondary_tag": "Morpheme-Level",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 238,
+        "caption_0": "more red buttons than blue",
+        "caption_1": "more blue buttons than red",
+        "tag": "Adjective-Color",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 239,
+        "caption_0": "the object at the top left is purple and the one at the bottom right of the group is red",
+        "caption_1": "the object at the bottom right is purple and the one at the top left of the group is red",
+        "tag": "Preposition Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 240,
+        "caption_0": "flat at the bottom and pointy on top",
+        "caption_1": "flat on top and pointy at the bottom",
+        "tag": "Preposition Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 241,
+        "caption_0": "seat numbers increasing from left to right",
+        "caption_1": "seat numbers increasing from right to left",
+        "tag": "Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 242,
+        "caption_0": "the number on the right is larger than the number on the left",
+        "caption_1": "the number on the left is larger than the number on the right",
+        "tag": "Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 243,
+        "caption_0": "more hair on the person's face than on their head",
+        "caption_1": "more hair on the person's head than on their face",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 244,
+        "caption_0": "the knife on the left and the fork on the right",
+        "caption_1": "the knife on the right and the fork on the left",
+        "tag": "Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 245,
+        "caption_0": "food on their eyes",
+        "caption_1": "eyes on their food",
+        "tag": "Noun",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 246,
+        "caption_0": "cars of bits",
+        "caption_1": "bits of cars",
+        "tag": "Noun",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 247,
+        "caption_0": "a person on top of the world",
+        "caption_1": "the world on top of a person",
+        "tag": "Noun",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 248,
+        "caption_0": "two people; the one on the right has curly hair and the one on the left doesn't",
+        "caption_1": "two people; the one on the left has curly hair and the one on the right doesn't",
+        "tag": "Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 249,
+        "caption_0": "first the cream, then the jam",
+        "caption_1": "first the jam, then the cream",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 250,
+        "caption_0": "more kisses than hugs",
+        "caption_1": "more hugs than kisses",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 251,
+        "caption_0": "an inflatable flamingo on a person",
+        "caption_1": "a person on an inflatable flamingo",
+        "tag": "Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 252,
+        "caption_0": "a pink bird with a white beak",
+        "caption_1": "a white bird with a pink beak",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 253,
+        "caption_0": "a large pink inflatable flamingo along with some other lilos on the water including one that is mostly white",
+        "caption_1": "a large white inflatable flamingo along with some other lilos on the water including one that is mostly pink",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 254,
+        "caption_0": "there are more eyes in the image than there are on a typical human",
+        "caption_1": "there are more eyes on a typical human than there are in the image",
+        "tag": "Preposition Phrase",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 255,
+        "caption_0": "the confident doctor's stethoscope is around their neck, and their jacket is over their name tag",
+        "caption_1": "the confident doctor's stethoscope is around their neck, and their name tag is over their jacket",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 256,
+        "caption_0": "few wind turbines and many clouds",
+        "caption_1": "few clouds and many wind turbines",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 257,
+        "caption_0": "an adult is reading to their young child",
+        "caption_1": "their young child is reading to an adult",
+        "tag": "Noun Phrase, Determiner-Possessive",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 258,
+        "caption_0": "the shopping basket is full and the shelves on the person's right are empty",
+        "caption_1": "the shelves on the person's right are full and the shopping basket is empty",
+        "tag": "Sentence",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 259,
+        "caption_0": "Young person playing baseball with a green bat and blue ball",
+        "caption_1": "Young person playing baseball with a blue bat and green ball",
+        "tag": "Noun, Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 260,
+        "caption_0": "painting the white wall red",
+        "caption_1": "painting the red wall white",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 261,
+        "caption_0": "wearing a red jacket over blue",
+        "caption_1": "wearing a blue jacket over red",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 262,
+        "caption_0": "I had cleaned my car",
+        "caption_1": "I had my car cleaned",
+        "tag": "Altered POS",
+        "secondary_tag": "Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 263,
+        "caption_0": "unfortunate poor people",
+        "caption_1": "poor unfortunate people",
+        "tag": "Adjective-Manner",
+        "secondary_tag": "Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 264,
+        "caption_0": "there are less gloves than masks",
+        "caption_1": "there are less masks than gloves",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 265,
+        "caption_0": "there are more pineapples than boxes",
+        "caption_1": "there are more boxes than pineapples",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 266,
+        "caption_0": "the outer bristles are blue and the inner ones are white",
+        "caption_1": "the outer bristles are white and the inner ones are blue",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 267,
+        "caption_0": "the first vowel is E and the last consonant is N",
+        "caption_1": "the last vowel is E and the first consonant is N",
+        "tag": "Adjective-Temporal",
+        "secondary_tag": "Symbolic, Pragmatics",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 268,
+        "caption_0": "the cat on the left of the photo has its right paw ahead of its left",
+        "caption_1": "the cat on the left of the photo has its left paw ahead of its right",
+        "tag": "Adjective-Spatial",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 269,
+        "caption_0": "the text is black on white",
+        "caption_1": "the text is white on black",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 270,
+        "caption_0": "the dog sits and the cat stands",
+        "caption_1": "the dog stands and the cat sits",
+        "tag": "Verb-Intransitive",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 271,
+        "caption_0": "the person with facial hair cycles and the other person runs",
+        "caption_1": "the person with facial hair runs and the other person cycles",
+        "tag": "Verb-Intransitive",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 272,
+        "caption_0": "using the laptop while the guitar is close by",
+        "caption_1": "using the guitar while the laptop is close by",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 273,
+        "caption_0": "a person in a blue coat with a brown-ish coffee cup",
+        "caption_1": "a person in a brown-ish coat with a blue coffee cup",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 274,
+        "caption_0": "space in a star",
+        "caption_1": "a star in space",
+        "tag": "Noun",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 275,
+        "caption_0": "star of death",
+        "caption_1": "death of star",
+        "tag": "Noun",
+        "secondary_tag": "Symbolic, Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 276,
+        "caption_0": "the younger person is making noise while the other is silent",
+        "caption_1": "the younger person is silent while the other is making noise",
+        "tag": "Verb-Intransitive, Adjective-Manner",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 277,
+        "caption_0": "the one on the left is happy and the other is sad",
+        "caption_1": "the one on the left is sad and the other is happy",
+        "tag": "Noun Phrase, Adjective-Animate",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 278,
+        "caption_0": "the person on the left is dancing and the person on the very right is sitting on the sofa",
+        "caption_1": "the person on the left is sitting on the sofa and the person on the very right is dancing",
+        "tag": "Verb-Intransitive, Verb-Transitive Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 279,
+        "caption_0": "the person on the left is crying sadly while the one on the right is smiling happily",
+        "caption_1": "the person on the left is smiling happily while the one on the right is crying sadly",
+        "tag": "Verb-Intransitive Phrase, Adverb-Animate",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 280,
+        "caption_0": "the large person is drinking from the small coffee cup",
+        "caption_1": "the small person is drinking from the large coffee cup",
+        "tag": "Adjective-Size",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 281,
+        "caption_0": "hot rubber and cool metal",
+        "caption_1": "cool rubber and hot metal",
+        "tag": "Adjective-Temperature",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 282,
+        "caption_0": "the triangular shape is beneath the square one",
+        "caption_1": "the square shape is beneath the triangular one",
+        "tag": "Adjective-Shape",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 283,
+        "caption_0": "rough outside but smooth inside",
+        "caption_1": "smooth outside but rough inside",
+        "tag": "Adjective-Texture",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 284,
+        "caption_0": "the green one is fast and the one in white is comparatively slow",
+        "caption_1": "the green one is slow and the one in white is comparatively fast",
+        "tag": "Adjective-Speed",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 285,
+        "caption_0": "there are more humans than balls",
+        "caption_1": "there are more balls than humans",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 286,
+        "caption_0": "there are more legs than wheels",
+        "caption_1": "there are more wheels than legs",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 287,
+        "caption_0": "a group of three people with longer hair and two with short hair in a business context",
+        "caption_1": "a group of two people with longer hair and three with short hair in a business context",
+        "tag": "Determiner-Numeral",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 288,
+        "caption_0": "the gesture of the person sitting down is supporting the understanding of the person standing up",
+        "caption_1": "the gesture of the person standing up is supporting the understanding of the person sitting down",
+        "tag": "Verb-Intransitive Phrase, Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 289,
+        "caption_0": "the circle is above the cross",
+        "caption_1": "the cross is above the circle",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 290,
+        "caption_0": "aerial view of a green tree in the brown freshly turned soil next to a green field",
+        "caption_1": "aerial view of a green tree in a green field next to the brown freshly turned soil",
+        "tag": "Noun Phrase, Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 291,
+        "caption_0": "physical therapist inspecting blue elastic therapeutic kinesio tape over pink",
+        "caption_1": "physical therapist inspecting pink elastic therapeutic kinesio tape over blue",
+        "tag": "Adjective-Color",
+        "secondary_tag": "Series",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 292,
+        "caption_0": "the skipping rope color is different to the shoelaces but similar to the shoes",
+        "caption_1": "the skipping rope color is similar to the shoelaces but different to the shoes",
+        "tag": "Adjective-Manner",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 293,
+        "caption_0": "the blue balloon is being lifted by the weight",
+        "caption_1": "the weight is being lifted by the blue balloon",
+        "tag": "Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 294,
+        "caption_0": "the sea is rough but the rocks are smooth",
+        "caption_1": "the sea is smooth but the rocks are rough",
+        "tag": "Adjective-Manner",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 295,
+        "caption_0": "the melting white food is cold while the brown is warm",
+        "caption_1": "the melting white food is warm while the brown is cold",
+        "tag": "Adjective-Temperature",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 296,
+        "caption_0": "the person with a beard is smiling while the person with long hair is not",
+        "caption_1": "the person with long hair is smiling while the person with a beard is not",
+        "tag": "Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 297,
+        "caption_0": "the pet on the right is white and the one on the left is not",
+        "caption_1": "the pet on the left is white and the one on the right is not",
+        "tag": "Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 298,
+        "caption_0": "the outlet carrying water from the faucet to the shower head is near the hot tap not the cold",
+        "caption_1": "the outlet carrying water from the faucet to the shower head is near the cold tap not the hot",
+        "tag": "Adjective-Temperature",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 299,
+        "caption_0": "the larger ball is heavier and the smaller one is lighter",
+        "caption_1": "the larger ball is lighter and the smaller one is heavier",
+        "tag": "Adjective-Weight",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 300,
+        "caption_0": "The adult with the magnifying glass looks at the kid",
+        "caption_1": "The adult looks at the kid with the magnifying glass",
+        "tag": "Preposition Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 301,
+        "caption_0": "a dog is on a blanket with spots",
+        "caption_1": "a blanket is on a dog with spots",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 302,
+        "caption_0": "There is a mouse cake for a birthday",
+        "caption_1": "There is a birthday cake for a mouse",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 303,
+        "caption_0": "The cold-blooded animal isn't happy in warm water",
+        "caption_1": "The warm-blooded animal isn't happy in cold water",
+        "tag": "Adjective-Temperature",
+        "secondary_tag": "Symbolic, Morpheme-Level",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 304,
+        "caption_0": "The white queen is taking the black king",
+        "caption_1": "The black queen is taking the white king",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 305,
+        "caption_0": "visiting animals at home can be fun",
+        "caption_1": "animals visiting at home can be fun",
+        "tag": "Altered POS",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 306,
+        "caption_0": "the person is not happy with the cat",
+        "caption_1": "the cat is not happy with the person",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 307,
+        "caption_0": "the person is too big for the small door",
+        "caption_1": "the door is too small for the big person",
+        "tag": "Noun, Adjective-Size",
+        "secondary_tag": "Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 308,
+        "caption_0": "a taller person is covering the eyes of a shorter person",
+        "caption_1": "a shorter person is covering the eyes of a taller person",
+        "tag": "Adjective-Size",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 309,
+        "caption_0": "the plant is eating the bug",
+        "caption_1": "the bug is eating the plant",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 310,
+        "caption_0": "every bug has a leaf",
+        "caption_1": "every leaf has a bug",
+        "tag": "Noun",
+        "secondary_tag": "Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 311,
+        "caption_0": "the green leaves will soon be red as the seasons change",
+        "caption_1": "the red leaves will soon be green as the seasons change",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 312,
+        "caption_0": "the white wall will soon be painted blue",
+        "caption_1": "the blue wall will soon be painted white",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 313,
+        "caption_0": "the moon prevents the sun's rays from falling on the earth",
+        "caption_1": "the earth prevents the sun's rays from falling on the moon",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 314,
+        "caption_0": "all paper airplanes fly on a straight path except for one which takes a curved one",
+        "caption_1": "all paper airplanes fly on a curved path except for one which takes a straight one",
+        "tag": "Adjective-Manner",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 315,
+        "caption_0": "the person is too big for the pants",
+        "caption_1": "the pants is too big for the person",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 316,
+        "caption_0": "a kid jumped then threw a basketball",
+        "caption_1": "a kid threw a basketball then jumped",
+        "tag": "Verb-Intransitive, Verb-Transitive Phrase",
+        "secondary_tag": "Series",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 317,
+        "caption_0": "one cheerlearder supporting multiple cheerleaders",
+        "caption_1": "multiple cheerleaders supporting one cheerlearder",
+        "tag": "Determiner-Numeral",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 318,
+        "caption_0": "two persons wearing one scarf",
+        "caption_1": "one person wearing two scarfs",
+        "tag": "Determiner-Numeral",
+        "secondary_tag": "Morpheme-Level",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 319,
+        "caption_0": "human head on pet",
+        "caption_1": "pet head on human",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 320,
+        "caption_0": "the cow is over the moon",
+        "caption_1": "the moon is over the cow",
+        "tag": "Noun",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 321,
+        "caption_0": "someone babys a pet",
+        "caption_1": "someone pets a baby",
+        "tag": "Altered POS",
+        "secondary_tag": "Morpheme-Level",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 322,
+        "caption_0": "cat house",
+        "caption_1": "house cat",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 323,
+        "caption_0": "gold for pan",
+        "caption_1": "pan for gold",
+        "tag": "Noun",
+        "secondary_tag": "Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 324,
+        "caption_0": "water for plants",
+        "caption_1": "plants for water",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 325,
+        "caption_0": "the businessperson's down fall",
+        "caption_1": "the businessperson's fall down",
+        "tag": "Altered POS",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 326,
+        "caption_0": "outswam the person in the red swimcap",
+        "caption_1": "the person in the red swimcap swamout",
+        "tag": "Scope, Preposition, Verb-Intransitive",
+        "secondary_tag": "Morpheme-Level",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 327,
+        "caption_0": "manning a ship",
+        "caption_1": "shiping a mann",
+        "tag": "Altered POS",
+        "secondary_tag": "Symbolic, Morpheme-Level",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 328,
+        "caption_0": "the person wearing a sweater stands in front of the person who isn't wearing a sweater",
+        "caption_1": "the person who isn't wearing a sweater stands in front of the person wearing a sweater",
+        "tag": "Negation, Scope",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 329,
+        "caption_0": "a person without glasses pushes a person with glasses sitting in a box",
+        "caption_1": "a person with glasses pushes a person without glasses sitting in a box",
+        "tag": "Negation, Scope",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 330,
+        "caption_0": "what is green will soon be yellow",
+        "caption_1": "what is yellow will soon be green",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 331,
+        "caption_0": "soon this animal not with a tail will have one",
+        "caption_1": "soon this animal with a tail will not have one",
+        "tag": "Negation, Scope",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 332,
+        "caption_0": "a mouse is touching a dog",
+        "caption_1": "a dog is touching a mouse",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 333,
+        "caption_0": "fishing for compliments",
+        "caption_1": "compliments for fishing",
+        "tag": "Altered POS",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 334,
+        "caption_0": "that person dusting off their hands",
+        "caption_1": "that person hands off their dusting",
+        "tag": "Altered POS",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 335,
+        "caption_0": "a person wearing black shoes cleaning a bookshelf with an orange duster while a person wearing green shoes drinks wine from an orange glass and relaxes",
+        "caption_1": "a person wearing green shoes cleaning a bookshelf with an orange duster while a person wearing black shoes drinks wine from an orange glass and relaxes",
+        "tag": "Adjective-Color",
+        "secondary_tag": "Series",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 336,
+        "caption_0": "a person with short hair is happily ironing a light blue shirt while a person with long hair sits on a white couch",
+        "caption_1": "a person with long hair is happily ironing a light blue shirt while a person with short hair sits on a white couch",
+        "tag": "Adjective-Size",
+        "secondary_tag": "Series",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 337,
+        "caption_0": "yellow duck shoes on",
+        "caption_1": "yellow duck on shoes",
+        "tag": "Altered POS",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 338,
+        "caption_0": "child in front facing row of yellow rubber ducks",
+        "caption_1": "front facing child in row of yellow rubber ducks",
+        "tag": "Scope, Preposition Phrase",
+        "secondary_tag": "Series",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 339,
+        "caption_0": "a bird cooking a person",
+        "caption_1": "a person cooking a bird",
+        "tag": "Noun",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 340,
+        "caption_0": "a person wearing yellow and a person wearing stripes jumping",
+        "caption_1": "a jumping person wearing yellow and a person wearing stripes",
+        "tag": "Scope, Adjective-Manner",
+        "secondary_tag": "Series",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 341,
+        "caption_0": "a person wearing yellow with their feet in the air and a person wearing stripes",
+        "caption_1": "a person wearing stripes with their feet in the air and a person wearing yellow",
+        "tag": "Adjective-Color",
+        "secondary_tag": "Series",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 342,
+        "caption_0": "darker things become light in stripes",
+        "caption_1": "light things in stripes become darker",
+        "tag": "Scope, Preposition Phrase, Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 343,
+        "caption_0": "together hammering something",
+        "caption_1": "hammering something together",
+        "tag": "Scope",
+        "secondary_tag": "Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 344,
+        "caption_0": "A person sits next to a baby using an orange screwdriver to assemble a white piece of furniture",
+        "caption_1": "A baby sits next to a person using an orange screwdriver to assemble a white piece of furniture",
+        "tag": "Noun",
+        "secondary_tag": "Pragmatics, Series",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 345,
+        "caption_0": "a worker in a yellow hat uses a drill to the left of where the opening in the wall is",
+        "caption_1": "the opening in the wall is to the left of where a worker in a yellow hat uses a drill",
+        "tag": "Sentence",
+        "secondary_tag": "Series",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 346,
+        "caption_0": "A small animal with curled hair",
+        "caption_1": "A curled small animal with hair",
+        "tag": "Scope, Adjective-Texture",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 347,
+        "caption_0": "A right hand pulls a glove onto a left hand",
+        "caption_1": "A left hand pulls a glove onto a right hand",
+        "tag": "Adjective-Spatial",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 348,
+        "caption_0": "A dog and a person with their feet hanging out of a car window",
+        "caption_1": "A dog with their feet hanging out of a car window and a person",
+        "tag": "Scope, Conjunction Phrase",
+        "secondary_tag": "Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 349,
+        "caption_0": "A person whispering into a dog's ear",
+        "caption_1": "A dog whispering into a person's ear",
+        "tag": "Noun",
+        "secondary_tag": "Morpheme-Level",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 350,
+        "caption_0": "one ear that some donkey is whispering a secret into",
+        "caption_1": "donkey ear that some one is whispering a secret into",
+        "tag": "Altered POS, Determiner-Numeral",
+        "secondary_tag": "Morpheme-Level",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 351,
+        "caption_0": "walking someone cut lines into green plants",
+        "caption_1": "someone walking lines cut into green plants",
+        "tag": "Scope, Altered POS, Verb-Intransitive, Verb-Transitive",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 352,
+        "caption_0": "a volcano above water makes steam",
+        "caption_1": "water above a volcano makes steam",
+        "tag": "Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 353,
+        "caption_0": "A child riding a bike and an adult",
+        "caption_1": "A child and an adult riding a bike",
+        "tag": "Scope, Conjunction Phrase",
+        "secondary_tag": "Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 354,
+        "caption_0": "an adult putting a helmet on a child",
+        "caption_1": "a child putting a helmet on an adult",
+        "tag": "Noun",
+        "secondary_tag": "Series",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 355,
+        "caption_0": "An adult wearing purple lying next to a child",
+        "caption_1": "An adult lying next to a child wearing purple",
+        "tag": "Scope, Adjective-Manner",
+        "secondary_tag": "Pragmatics, Series",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 356,
+        "caption_0": "a fencer who is wearing black pants having a point scored against them by another fencer using a wheelchair",
+        "caption_1": "a fencer having a point scored against them by another fencer who is wearing black pants using a wheelchair",
+        "tag": "Scope, Relative Clause",
+        "secondary_tag": "Series",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 357,
+        "caption_0": "a person with long braids is exercising in front of a person without braids",
+        "caption_1": "a person without braids is exercising in front of a person with long braids",
+        "tag": "Negation, Noun Phrase, Preposition Phrase",
+        "secondary_tag": "Series",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 358,
+        "caption_0": "in the stadium, the person wearing gray outperformed the one wearing blue",
+        "caption_1": "in the stadium, the person wearing blue outperformed the one wearing gray",
+        "tag": "Adjective-Color",
+        "secondary_tag": "Series",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 359,
+        "caption_0": "butchering white meat while wearing yellow but not red",
+        "caption_1": "butchering red meat while wearing white but not yellow",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 360,
+        "caption_0": "a child with a fake beard and an adult",
+        "caption_1": "an adult with a fake beard and a child",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 361,
+        "caption_0": "on halloween, a child dressed as an insect is to the right of a child dressed as a mammal",
+        "caption_1": "on halloween, a child dressed as a mammal is to the right of a child dressed as an insect",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 362,
+        "caption_0": "a modern office complex with many windows above a nicely landscaped lawn",
+        "caption_1": "a nicely landscaped lawn above a modern office complex with many windows",
+        "tag": "Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 363,
+        "caption_0": "a tree is partially inside a parked car",
+        "caption_1": "a parked car is partially inside a tree",
+        "tag": "Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 364,
+        "caption_0": "some are parking in a train",
+        "caption_1": "some are training in a park",
+        "tag": "Altered POS",
+        "secondary_tag": "Morpheme-Level",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 365,
+        "caption_0": "an athlete running on water",
+        "caption_1": "water running on an athlete",
+        "tag": "Noun Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 366,
+        "caption_0": "a horse getting wet",
+        "caption_1": "getting a horse wet",
+        "tag": "Scope",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 367,
+        "caption_0": "the glasses full of water are above the person's head and leg",
+        "caption_1": "the person's head and leg are above the glasses full of water",
+        "tag": "Noun Phrase",
+        "secondary_tag": "Series",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 368,
+        "caption_0": "a person is touching the head of a squirrel",
+        "caption_1": "a squirrel is touching the head of a person",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 369,
+        "caption_0": "a deer's nose is resting on a child's hand",
+        "caption_1": "a child's hand is resting on a deer's nose",
+        "tag": "Noun Phrase, Determiner-Possessive",
+        "secondary_tag": "Series",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 370,
+        "caption_0": "two sparklers for one hand",
+        "caption_1": "one sparkler for two hands",
+        "tag": "Determiner-Numeral",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 371,
+        "caption_0": "an animal giving a person food",
+        "caption_1": "a person giving an animal food",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 372,
+        "caption_0": "a spider towering over a dog",
+        "caption_1": "a dog towering over a spider",
+        "tag": "Noun",
+        "secondary_tag": "Symbolic, Series",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 373,
+        "caption_0": "a car going into a hollow tube",
+        "caption_1": "a hollow tube going into a car",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 374,
+        "caption_0": "two people wearing clothes of the same colors are on different side of the tennis net",
+        "caption_1": "two people wearing clothes of different colors are on the same side of the tennis net",
+        "tag": "Adjective-Manner Phrase",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 375,
+        "caption_0": "living things drinking",
+        "caption_1": "drinking living things",
+        "tag": "Scope, Adjective-Manner",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 376,
+        "caption_0": "a person near water using a lasso",
+        "caption_1": "near a person using a water lasso",
+        "tag": "Scope, Noun, Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Both"
+    },
+    {
+        "id": 377,
+        "caption_0": "a person spraying water on someone else and a person on a bike",
+        "caption_1": "a person spraying water on a person on a bike and someone else",
+        "tag": "Scope, Conjunction",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 378,
+        "caption_0": "a person stretching behind a brown dog",
+        "caption_1": "a brown dog stretching behind a person",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 379,
+        "caption_0": "a person carrying more than one flotation device",
+        "caption_1": "more than one flotation device carrying a person",
+        "tag": "Noun Phrase, Determiner-Numeral",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 380,
+        "caption_0": "two kids on a pool floatie and one kid swimming",
+        "caption_1": "one kid on a pool floatie and two kids swimming",
+        "tag": "Determiner-Numeral",
+        "secondary_tag": "Series",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 381,
+        "caption_0": "gears for moving something",
+        "caption_1": "moving gears for something",
+        "tag": "Scope, Verb-Transitive",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 382,
+        "caption_0": "looking from above at a collection of similar objects below",
+        "caption_1": "looking from below at a collection of similar objects above",
+        "tag": "Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 383,
+        "caption_0": "a toy herbivore stands on top of at least one toy carnivore",
+        "caption_1": "at least one toy herbivore stands on top of a toy carnivore",
+        "tag": "Determiner-Numeral",
+        "secondary_tag": "Symbolic, Series",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 384,
+        "caption_0": "a person supports a small chair",
+        "caption_1": "a chair supports a small person",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 385,
+        "caption_0": "a person smiles at another person wearing a checked shirt who is hitting a ping pong ball",
+        "caption_1": "a person wearing a checked shirt smiles at another person who is hitting a ping pong ball",
+        "tag": "Scope, Adjective-Manner",
+        "secondary_tag": "Series",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 386,
+        "caption_0": "two versions of one person",
+        "caption_1": "one version of two persons",
+        "tag": "Determiner-Numeral",
+        "secondary_tag": "Morpheme-Level",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 387,
+        "caption_0": "There are not pink flowers below the bird with yellow head feathers",
+        "caption_1": "There are pink flowers not below the bird with yellow head feathers",
+        "tag": "Negation, Scope",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 388,
+        "caption_0": "In a shopping cart, there are two animals that are the same species but are looking in different directions",
+        "caption_1": "In a shopping cart, there are two animals that are the different species but are looking in same directions",
+        "tag": "Adjective-Manner",
+        "secondary_tag": "Series",
+        "num_main_preds": 2,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 389,
+        "caption_0": "water is on and under a vessel",
+        "caption_1": "a vessel is on and under water",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 2,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 390,
+        "caption_0": "two bodies share with one head",
+        "caption_1": "one bodies share with two head",
+        "tag": "Determiner-Numeral",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 391,
+        "caption_0": "The worker wears something striped over a white undershirt with a collar",
+        "caption_1": "The worker wears something white over a striped undershirt with a collar",
+        "tag": "Adjective-Color",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 392,
+        "caption_0": "A person seen from above has a grid below them",
+        "caption_1": "A person seen from below has a grid above them",
+        "tag": "Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 393,
+        "caption_0": "head in the clouds",
+        "caption_1": "clouds in the head",
+        "tag": "Noun",
+        "secondary_tag": "Symbolic",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 394,
+        "caption_0": "standing on feet",
+        "caption_1": "on feet standing",
+        "tag": "Scope, Preposition Phrase",
+        "secondary_tag": "Pragmatics",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 395,
+        "caption_0": "They have sunglasses over their hair",
+        "caption_1": "They have hair over their sunglasses",
+        "tag": "Noun",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Object"
+    },
+    {
+        "id": 396,
+        "caption_0": "an odd number of sweet things on a plate with an even number of sides",
+        "caption_1": "an even number of sweet things on a plate with an odd number of sides",
+        "tag": "Adjective-Manner",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 397,
+        "caption_0": "a large living thing in front of a large non-living thing",
+        "caption_1": "a large non-living thing in front of a large living thing",
+        "tag": "Negation, Scope",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 398,
+        "caption_0": "racing over it",
+        "caption_1": "racing it over",
+        "tag": "Scope, Preposition",
+        "secondary_tag": "",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    },
+    {
+        "id": 399,
+        "caption_0": "someone is overdoing it",
+        "caption_1": "someone is doing it over",
+        "tag": "Scope, Preposition",
+        "secondary_tag": "Morpheme-Level",
+        "num_main_preds": 1,
+        "collapsed_tag": "Relation"
+    }
+]

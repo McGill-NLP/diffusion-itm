@@ -16,7 +16,7 @@ Run:
 python3 setup.py install
 ```
 
-Make a new python environment and install torch (1.13.0), torchvision (0.14.0), tqdm and pandas.
+Make a new python environment and install torch (1.13.0), torchvision (0.14.0), transformers (4.26.1), accelerate (0.16.0) , easydict, tqdm and pandas.
 
 ## Dataset Setup
 
