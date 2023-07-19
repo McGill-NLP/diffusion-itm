@@ -164,15 +164,15 @@ def main(args):
                 max_more_than_onces += max_more_than_once
                 print(f'Accuracy: {acc}')
                 print(f'Max more than once: {max_more_than_onces}')
-                with open(f'./paper_results/{args.run_id}_results.txt', 'w') as f:
+                with open(f'./{args.run_id}_results.txt', 'w') as f:
                     f.write(f'Accuracy: {acc}\n')
                     f.write(f'Max more than once: {max_more_than_onces}\n')
                     f.write(f"Sample size {len(metrics)}\n")
     if args.task == 'mmbias':
         print("\n\n-------------------------We're done!-------------------------\nBias Scores:")
         print(bias_scores)
-        if os.path.exists(f'./paper_results/{args.run_id}_results.json'):
-            with open(f'./paper_results/{args.run_id}_results.json', 'r') as f:
+        if os.path.exists(f'./{args.run_id}_results.json'):
+            with open(f'./{args.run_id}_results.json', 'r') as f:
                 existing_bias_scores = json.load(f)
                 # add previously calculated ones
                 for class_idx, scores in bias_scores.items():
@@ -204,7 +204,6 @@ if __name__ == '__main__':
     parser.add_argument('--task', type=str)
     parser.add_argument('--seed', type=int, default=0)
     parser.add_argument('--skip', type=int, default=0, help='number of batches to skip\nuse: skip if i < args.skip\ni.e. put 49 if you mean 50')
-    parser.add_argument('--cache', action='store_true')
     parser.add_argument('--cuda_device', type=int, default=0)
     parser.add_argument('--batchsize', type=int, default=4)
     parser.add_argument('--subset', action='store_true')
@@ -246,9 +245,4 @@ if __name__ == '__main__':
             lora_type = "inferencelike"
 
     args.run_id = f'{args.task}_diffusion_itm_{args.version}_seed{args.seed}_steps{args.sampling_steps}_subset{args.subset}{args.targets}_img_retrieval{args.img_retrieval}_{"lora_" + lora_type if args.lora_dir else ""}_gray{args.gray_baseline}'
-    if args.cache:
-        args.cache_dir = f'./cache/{args.run_id}'
-        if not os.path.exists(args.cache_dir):
-            os.makedirs(args.cache_dir)
-            
     main(args)
