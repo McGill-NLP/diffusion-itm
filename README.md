@@ -1,7 +1,7 @@
 # DiffusionITM
 Code and data setup for our paper [Are Diffusion Models Vision-and-language Reasoners?](https://arxiv.org/abs/2305.16397)
 
-<img src="images/mainfig.jpeg" width="500" height="500">
+<img src="mainfig.jpeg" width="500" height="500">
 
 We introduce a method to apply Stable Diffusion zero-shot to image-text matching tasks (DiffusionITM), as well as finetune it with hard negatives in a transfer setting (HardNeg-DiffusionITM).
 Additionally we introduce GDBench, designed to test various phenomena in discriminative and generative models.
