@@ -12,7 +12,7 @@ IMPORTANT: Clone the repository with the sumbodules option:
 git clone --recurse-submodules git@github.com:McGill-NLP/diffusion-itm.git
 ```
 
-Run:
+Run the following in the diffusers folder:
 ```
 python3 setup.py install
 ```
