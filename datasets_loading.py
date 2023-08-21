@@ -51,10 +51,10 @@ def get_dataset(dataset_name, root_dir, transform=None, resize=512, scoring_only
     elif dataset_name == 'vg_attribution':
         return VG_Attribution(image_preprocess=transform, download=True, root_dir=root_dir)
     elif dataset_name == 'coco_order':
-        return COCO_Order(image_preprocess=transform, download=True, root_dir=root_dir)
+        return COCO_Order(image_preprocess=transform, download=True, root_dir=f'{root_dir}/coco_order')
     elif dataset_name == 'flickr30k_order':
-        return Flickr30k_Order(image_preprocess=transform, download=True, root_dir=root_dir)
-    elif dataset_name == 'mscoco':
+        return Flickr30k_Order(image_preprocess=transform, download=True, root_dir=f'{root_dir}/flickr30k')
+    elif dataset_name == 'mscoco':  
         return MSCOCODataset(root_dir, transform, resize=resize, split=split, tokenizer=tokenizer, hard_neg=hard_neg, neg_img=neg_img, mixed_neg=mixed_neg)
     elif dataset_name == 'mscoco_val':
         return ValidMSCOCODataset(root_dir, transform, resize=resize, split='val', tokenizer=tokenizer, neg_img=neg_img, hard_neg=hard_neg)
@@ -287,7 +287,7 @@ class WinogroundDataset(Dataset):
 
 class ImageCoDeDataset(Dataset):
     def __init__(self, root_dir, split, transform, resize=512, scoring_only=False, static=True):
-        self.root_dir = 'data/imagecode'
+        self.root_dir = f'{root_dir}/imagecode'
         self.resize = resize
         self.dataset = self.load_data(self.root_dir, split, static_only=static)
         self.transform = transform
@@ -498,7 +498,7 @@ class Flickr30KDataset(Dataset):
     def __init__(self, root_dir, transform, resize=512, scoring_only=False, split='val', tokenizer=None, first_query=True, details=False):
         self.root_dir = root_dir
         self.resize = resize
-        self.data = json.load(open(f'{root_dir}/{split}_top10_RN50x64.json', 'r'))
+        self.data = json.load(open(f'{root_dir}/flickr30k/{split}_top10_RN50x64.json', 'r'))
         self.data = list(self.data.items())
         # get only every 5th example
         if first_query:
@@ -519,27 +519,31 @@ class Flickr30KDataset(Dataset):
             text = text.input_ids.squeeze(0)
         img_paths = ex[1]
         img_idx = 0
-        if not self.scoring_only:
-            imgs = [Image.open(f'{img_path}').convert("RGB") for img_path in img_paths]
+
+        imgs = [Image.open(f'{img_path.replace("datasets",self.root_dir)}').convert("RGB") for img_path in img_paths]
+        
+        if self.transform:
+            imgs_resize = [self.transform(img).unsqueeze(0) for img in imgs]
+        else:
             imgs_resize = [img.resize((self.resize, self.resize)) for img in imgs]
-            #convert pillow to numpy array
-            # imgs_resize = [np.array(img) for img in imgs_resize]
             imgs_resize = [diffusers_preprocess(img) for img in imgs_resize]
 
-            if self.transform:
-                imgs = [self.transform(img) for img in imgs]
-            else:
-                imgs = [transforms.ToTensor()(img) for img in imgs]
-        if self.scoring_only:
-            return [text], img_idx
-        else:
-            return [img_paths, imgs_resize], [text], img_idx
+        # imgs_resize = [img.resize((self.resize, self.resize)) for img in imgs]
+        
+        # imgs_resize = [diffusers_preprocess(img) for img in imgs_resize]
+
+        # if self.transform:
+        #     imgs = [self.transform(img) for img in imgs]
+        # else:
+        #     imgs = [transforms.ToTensor()(img) for img in imgs]
+        
+        return [img_paths, imgs_resize], [text], img_idx
 
 class Flickr30KTextRetrievalDataset(Dataset):
     def __init__(self, root_dir, transform, resize=512, scoring_only=False, split='val', tokenizer=None, hard_neg=False, details=False):
-        self.root_dir = 'data/flickr30k'
+        self.root_dir = root_dir
         self.resize = resize
-        self.data = json.load(open(f'{self.root_dir}/{split}_top10_RN50x64_text.json', 'r'))
+        self.data = json.load(open(f'{self.root_dir}/flickr30k/{split}_top10_RN50x64_text.json', 'r'))
         if split == 'val':
             self.data = list(self.data.items()) # dictionary from img_path to list of 10 captions
         self.all_captions = []
@@ -570,7 +574,7 @@ class Flickr30KTextRetrievalDataset(Dataset):
                 text_rand = self.tokenizer(text_rand, max_length=self.tokenizer.model_max_length, padding="max_length", truncation=True, return_tensors="pt")
                 text_rand = text_rand.input_ids.squeeze(0)
             text = torch.stack([text0, text_rand])
-        img = Image.open(f'{img_path}').convert("RGB")
+        img = Image.open(f'{img_path.replace("datasets",self.root_dir)}').convert("RGB")
         if self.transform:
             img_resize = self.transform(img).unsqueeze(0)
         else:
@@ -676,7 +680,7 @@ class SVOClassificationDataset(Dataset):
 
     def __init__(self, root_dir, transform, resize=512, scoring_only=False, neg_type='verb'):
         self.transform = transform
-        self.root_dir = 'data/svo'
+        self.root_dir = f'{root_dir}/svo'
         self.data = self.load_data(self.root_dir, neg_type=neg_type)
         self.resize = resize
         self.scoring_only = scoring_only

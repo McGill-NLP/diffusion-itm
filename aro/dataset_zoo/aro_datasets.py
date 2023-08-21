@@ -313,7 +313,7 @@ class Flickr30k_Order(Dataset):
         root_dir: The directory of the flickr30k images. This should contain the `flickr30k-images` directory that \
             contains all the images. 
         """
-        root_dir = 'datasets/flickr30k'
+        # root_dir = 'datasets/flickr30k'
         urls = {'val':'https://storage.googleapis.com/sfr-vision-language-research/datasets/flickr30k_val.json',
                 'test':'https://storage.googleapis.com/sfr-vision-language-research/datasets/flickr30k_test.json'}
         filenames = {'val':'flickr30k_val.json','test':'flickr30k_test.json'}
