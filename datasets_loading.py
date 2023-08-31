@@ -192,7 +192,7 @@ class GenderBiasDataset(Dataset):
     
 class BiasDataset(Dataset):
     def __init__(self, root_dir, resize=512, transform=None, targets=None):
-        self.root_dir = root_dir #datasets/mmbias/
+        root_dir = f'{root_dir}/mmbias' #datasets/mmbias/
         self.resize = resize
         self.transform = transform
         self.phrases = json.load(open(f'{root_dir}/textual_phrases.txt'))
