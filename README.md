@@ -64,7 +64,7 @@ wget https://zenodo.org/record/6518944/files/image-sets.zip -->
 
 ### Winoground
 
-Fill in AUTH_TOKEN in line 259
+Fill in AUTH_TOKEN in line 259 of dataset_loading.py
 
 ### Bias
 
