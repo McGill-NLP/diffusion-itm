@@ -38,7 +38,7 @@ For the rest, there are some small manual steps:
 
 ### Flickr30K
 
-Download the images from [Kaggle](https://www.kaggle.com/data/hsankesara/flickr-image-dataset) and save them under data: `data/flickr30k/images`.
+Download the images from [Kaggle](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset) and save them under data: `data/flickr30k/images`.
 
 <!-- ### ARO
 
