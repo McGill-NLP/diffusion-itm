@@ -255,7 +255,7 @@ class BiasDataset(Dataset):
 
 class WinogroundDataset(Dataset):
     def __init__(self, root_dir, transform, resize=512, scoring_only=False):
-        self.examples = load_dataset('facebook/winoground', use_auth_token='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')
+        self.examples = load_dataset('facebook/winoground', use_auth_token='YOUR_TOKEN_HERE')
         self.resize = resize
         self.transform = transform
         self.scoring_only = scoring_only
