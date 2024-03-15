@@ -89,6 +89,13 @@ To change the default options, here is the complete call:
 python diffusion_itm.py --task TASK --seed SEED --cuda_device DEVICE --batchsize SIZE --subset --sampling_steps AMOUNT_OF_NOISE_TIMESTEP_SAMPLES_PER_EXAMPLE --img_retrieval --version VERSION_1.5_OR_2.1 --lora_dir ONLY_IF_YOU_LOAD_FINETUNED_WEIGHTS --guidance_scale SCALE
 ```
 
+### Fine-tuned ITM
+
+As explained in the next section, we also finetuned our model with in-batch negatives on MSCOCO.
+The checkpoints directories can be found under checkpoints and are named as in the paper: 'hardneg..' (last row table Table 2), 'noneg...' (second row Table 2), 
+
+You can simply specify --lora_dir as shown in the above section when running diffusion_itm.py.
+
 ### Hard Negative Finetuning (HardNeg-DiffusionITM)
 
 <!-- hard_neg_finetuning.py --pretrained_model_name_or_path /home/nlp/users/bkroje/.cache/huggingface/hub/models--stabilityai--stable-diffusion-2-1-base/snapshots/88bb1a46821197d1ac0cb54d1d09fb6e70b171bc --train_batch_size 4 --gradient_accumulation_steps 4 --neg_prob 1.0 --output_dir mixed_neg1.0_coco_finetuning_lora_savingmodel_lr1e-4 --checkpointing_steps 500 --learning_rate 1e-4 --num_train_epochs 8 --neg_loss_factor 1.0 --mixed_neg -->
