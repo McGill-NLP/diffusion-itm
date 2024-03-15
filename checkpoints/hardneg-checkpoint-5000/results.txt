@@ -1,0 +1,3 @@
+MSCOCO Val Accuracy: 0.6402439024390244
+Max more than once: 0
+Sample size 328
