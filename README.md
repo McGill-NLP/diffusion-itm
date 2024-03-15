@@ -92,9 +92,9 @@ python diffusion_itm.py --task TASK --seed SEED --cuda_device DEVICE --batchsize
 ### Fine-tuned ITM
 
 As explained in the next section, we also finetuned our model with in-batch negatives on MSCOCO.
-The checkpoints directories can be found under checkpoints and are named as in the paper: 'hardneg..' (last row table Table 2), 'noneg...' (second row Table 2), 
+The checkpoints directories can be found under checkpoints and are named as in the paper: `hardneg` (last row table Table 2), `noneg` (second row Table 2).
 
-You can simply specify --lora_dir as shown in the above section when running diffusion_itm.py.
+You can simply specify `--lora_dir` as shown in the above section when running `diffusion_itm.py`.
 
 ### Hard Negative Finetuning (HardNeg-DiffusionITM)
 
